@@ -1,0 +1,187 @@
+/* _______________ card item-1 _______________ */
+
+#item-2.case-item.hov.item-1 {
+  background: url(cases/aero1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .2s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+#item-2.case-item.hov.item-1:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+#item-2.case-item.hov.item-1.open {
+  background: url(cases/aero-320.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .2s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+#item-2.case-item.hov.item-1.open:hover {
+  background: url(cases/aero-320.jpg);
+}
+
+#item-2.item-1:hover .title {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+#item-2.item-1 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1
+}
+
+/* _______________ end card _______________ */
+
+/* _______________ picture _______________ */
+
+
+#item-2 img.enter-pic {
+  width: 132px;
+  height: auto;
+  position: absolute;
+  margin: 200px 0 0 90px;
+    transition: .5s all;
+    opacity: 1;
+}
+
+#item-2.case-item:hover img.enter-pic {
+  width: 132px;
+    height: auto;
+    margin: 150px 0 0 90px;
+}
+
+#item-2 img.enter-pic.delete {
+  transform: scale(0);
+}
+
+#item-2 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -272px;
+  left: -170px;
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+#item-2 img.bayk.play { 
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -272px;
+  left: 30px;
+  cursor: none; 
+}
+
+/* _______________ end picture _______________ */
+
+/* _______________ content _______________ */
+
+#item-2.a_container {
+  min-width: 320px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+#item-2.title {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  width: 320px;
+  margin: auto;
+  font-family: 'MTSWide-Medium';
+  top: 45%;
+  text-align: center;
+  opacity: 0;
+  transition: .5s all;
+}
+
+#item-2.title p {
+  font-size: 14px;
+  font-family: monospace;
+  padding: 12px 52px 12px 52px;
+  text-transform: math-auto;
+}
+
+#item-2 a.down {
+  font-family: monospace;
+  display: block;
+  margin: 30px;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) .8s;
+  transform: scale(0);
+}
+
+#item-2 a.down.play {
+  top: 0px;
+  transform: scale(1);
+}
+
+#item-2 a.UP1.play {
+  top: 0px;
+  transform: scale(1);
+}
+
+#item-2 a.UP1 {
+    font-family: monospace;
+    display: block;
+    margin: -143px 0 0 260px;
+    color: #000;
+    font-weight: bold;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .8s;
+    right: 0;
+    transform: scale(0);
+}
+
+/* _______________ arrow _______________ */
+
+#item-2.arrow {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  margin: 380px 0 0 240px;
+  display: block;
+  transition: .5s all;
+  transform: scale(0);
+  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' fill='white' fill-opacity='0.2' stroke='black' style='fill:white;fill-opacity:0.2;stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4437' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4437' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
+}
+#item-2.arrow.play {
+  display: block;
+  transform: scale(1);
+  transition: .5s all;
+  animation: pulse-black 2s infinite;
+
+}
+
+#item-2.arrow.play:hover {
+  width: 46px;
+  height: 46px;
+  margin: 380px 0 0 240px;
+  display: block;
+  transition: .5s all;
+  transform: scale(1) rotate(45deg)!important;
+  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' fill='black' stroke='white' stroke-opacity='0.2' style='fill:black;fill-opacity:1;stroke:white;stroke-opacity:0.2;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
+}
+
+
+  /* _______________ end arrow _______________ */
