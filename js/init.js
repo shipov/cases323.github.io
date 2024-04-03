@@ -96,21 +96,21 @@ $(".case-item").click(function(){
 $(".case-item").click(function(){
 	$(".case-item.item-5").toggleClass("open");
 	$(this).toggleClass("open");
-  $(".case-item.item-5.bayk, .case-item.item-5 a.down, .case-item.item-5 a.UP1, .case-item.item-5 a.arrow_w").toggleClass("play");
+  $(".case-item.item-5.bayk, .case-item.item-5 a.down, .case-item.item-5 a.UP1, .case-item.item-5 a.arrow_w, .case-item.item-5 .nda").toggleClass("play");
   $(".case-item.item-5.title, .case-item.item-5.enter-pic").toggleClass("delete");
 });
 
 $(".case-item").click(function(){
 	$(".case-item.item-6").toggleClass("open");
 	$(this).toggleClass("open");
-  $(".case-item.item-6.bayk, .case-item.item-6 a.down, .case-item.item-6 a.UP1, .case-item.item-6 a.arrow_w").toggleClass("play");
+  $(".case-item.item-6.bayk, .case-item.item-6 a.down, .case-item.item-6 a.UP1, .case-item.item-6 a.arrow_w, .case-item.item-6 .nda").toggleClass("play");
   $(".case-item.item-6.title, .case-item.item-6.enter-pic").toggleClass("delete");
 });
 
 $(".case-item").click(function(){
 	$(".case-item.item-7").toggleClass("open");
 	$(this).toggleClass("open");
-  $(".case-item.item-7.bayk, .case-item.item-7 a.down, .case-item.item-7 a.UP1, .case-item.item-7 a.arrow_w").toggleClass("play");
+  $(".case-item.item-7.bayk, .case-item.item-7 a.down, .case-item.item-7 a.UP1, .case-item.item-7 a.arrow_w, .case-item.item-7 .nda").toggleClass("play");
   $(".case-item.item-7.title, .case-item.item-7.enter-pic").toggleClass("delete");
 });
 
