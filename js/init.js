@@ -149,6 +149,20 @@ $(".case-item").click(function(){
   $(".case-item.item-12.title, .case-item.item-12.enter-pic").toggleClass("delete");
 });
 
+$(".case-item").click(function(){
+	$(".case-item.item-13").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-13.bayk, .case-item.item-13 a.down, .case-item.item-13 a.UP1, .case-item.item-13 a.arrow").toggleClass("play");
+  $(".case-item.item-13.title, .case-item.item-13.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+	$(".case-item.item-14").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-14.bayk, .case-item.item-14 a.down, .case-item.item-14 a.UP1, .case-item.item-14 a.arrow_w").toggleClass("play");
+  $(".case-item.item-14.title, .case-item.item-14.enter-pic").toggleClass("delete");
+});
+
 // document.getElementsByClassName('').addEventListener('click', function() {
 //   this.classList.add('open');
 // });
