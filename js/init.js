@@ -163,6 +163,13 @@ $(".case-item").click(function(){
   $(".case-item.item-14.title, .case-item.item-14.enter-pic").toggleClass("delete");
 });
 
+$(".case-item").click(function(){
+	$(".case-item.item-15").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-15.bayk, .case-item.item-15 a.down, .case-item.item-15 a.UP1, .case-item.item-15 a.arrow_w").toggleClass("play");
+  $(".case-item.item-15.title, .case-item.item-15.enter-pic").toggleClass("delete");
+});
+
 // document.getElementsByClassName('').addEventListener('click', function() {
 //   this.classList.add('open');
 // });

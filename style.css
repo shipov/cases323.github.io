@@ -2045,6 +2045,88 @@
   }
   
   /* _______________ end card _______________ */
+
+      /* _______________ card item-16 _______________ */
+    
+      .case-item.item-15 {
+        background: url(cases/rb.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        transition: .5s all;
+        height: 500px;
+        border-radius: 8px;
+        
+        }
+        
+        .case-item.item-15:hover {
+        background-attachment: fixed;
+        background-size: cover;
+        transform: scale(.95);
+        border-radius: 8px;
+        }
+        
+        .case-item.item-15.open {
+        background: url(cases/rb.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        transition: .5s all;
+        transform: scale(1);
+        border-radius: 8px;
+        }
+        
+        .item-15:hover .title  {
+        display: block;
+        font-size: 14px;
+        position: absolute;
+        margin: auto;
+        top: 45%;
+        text-align: center;
+        opacity: 1;
+        }
+        
+        .item-15 .title.delete {
+        display: block;
+        top: 30%!important;
+        opacity: 1;
+        }
+        
+        .case-item.item-15 img.bayk {
+        width: auto;
+        height: 168px;
+        position: relative;
+        bottom: -282px;
+        left: 83px;
+        transform: scale(0);
+        cursor: none; 
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+        }
+        
+        .case-item.item-15 img.bayk.play {
+        width: 112px;
+        height: 168px;
+        position: relative;
+        bottom: -282px;
+        left: 104px;
+        transform: scale(0.6);
+        cursor: none; 
+        }
+        
+        .case-item.item-15 img.enter-pic {
+        width: 65px;
+        height: auto;
+        position: absolute;
+        margin: 220px 0 0 131px;
+        transition: .5s all;
+        opacity: 1;
+        }
+        
+        .case-item.item-15:hover img.enter-pic {
+        width: 65px;
+        height: auto;
+        margin: 130px 0 0 131px;
+        }
+        
+        /* _______________ end card _______________ */
     
     @keyframes pulse-black {
     0% {
