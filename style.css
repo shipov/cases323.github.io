@@ -1,94 +1,94 @@
-:root {
+  :root {
     --primary_color: #000;
     --font: 'MTSWide-Medium';
-}
-
-@font-face {
-  font-family: 'font_1';
-  src: url(".ont/font_1.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'serifina';
-  src: url("font/serifina.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Gilroy-ExtraBold';
-  src: url("font/Gilroy-ExtraBold.woff2") format("woff2");
-}
-
-
-@font-face {
-  font-family: 'Gilroy-Light';
-  src: url("font/Gilroy-Light.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'Gilroy-Regular';
-  src: url("font/Gilroy-Regular.woff2") format("woff2");
-}
-
-
-@font-face {
-  font-family: 'MTSWide-Medium';
-  src: url("font/MTSWide-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'MTSWide-Bold';
-  src: url("font/MTSWide-Bold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: 'MTSWide-Regular';
-  src: url("font/MTSWide-Regular.woff2") format("woff2");
-}
-
-* {
+    }
+    
+    @font-face {
+    font-family: 'font_1';
+    src: url(".ont/font_1.woff") format("woff");
+    }
+    
+    @font-face {
+    font-family: 'serifina';
+    src: url("font/serifina.woff2") format("woff2");
+    }
+    
+    @font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url("font/Gilroy-ExtraBold.woff2") format("woff2");
+    }
+    
+    
+    @font-face {
+    font-family: 'Gilroy-Light';
+    src: url("font/Gilroy-Light.woff2") format("woff2");
+    }
+    
+    @font-face {
+    font-family: 'Gilroy-Regular';
+    src: url("font/Gilroy-Regular.woff2") format("woff2");
+    }
+    
+    
+    @font-face {
+    font-family: 'MTSWide-Medium';
+    src: url("font/MTSWide-Medium.woff2") format("woff2");
+    }
+    
+    @font-face {
+    font-family: 'MTSWide-Bold';
+    src: url("font/MTSWide-Bold.woff2") format("woff2");
+    }
+    
+    @font-face {
+    font-family: 'MTSWide-Regular';
+    src: url("font/MTSWide-Regular.woff2") format("woff2");
+    }
+    
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     cursor: none;
-}
-
-body {
+    }
+    
+    body {
     margin: 0;
     background: #f4f7fb;
     cursor: none;
     overflow-x: hidden!important;
-}
-body::-webkit-scrollbar {
-  width: 5px;
-  height: 3px;
-  border-radius: 100%;
-  background-color: transparent; }
-
-body::-webkit-scrollbar-thumb {
-  background: #000; }
-
-
-.first-container {
-  width: 1324px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  align-items: center;
-
-}
-
-div#section0 {
-  display: flex;
-  align-content: center;
-  align-items: center;
-}
-
-.second-container {
+    }
+    body::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+    border-radius: 100%;
+    background-color: transparent; }
+    
+    body::-webkit-scrollbar-thumb {
+    background: #000; }
+    
+    
+    .first-container {
+    width: 1324px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    align-items: center;
+    
+    }
+    
+    div#section0 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    }
+    
+    .second-container {
     width: 1324px;
     margin: auto;
     display: flex;
@@ -101,10 +101,10 @@ div#section0 {
     left: 0;
     right: 0;
     justify-content: center;
-
-}
-
-header {
+    
+    }
+    
+    header {
     position:fixed;
     top:0px;
     height: 50px;
@@ -115,9 +115,9 @@ header {
     text-align:center;
     color: #f2f2f2;
     padding: 20px 0 0 0;
-}
-
-footer {
+    }
+    
+    footer {
     position:fixed;
     bottom:0px;
     height: 50px;
@@ -128,48 +128,48 @@ footer {
     text-align:center;
     color: #f2f2f2;
     padding: 20px 0 0 0;
-}
-
-h1 {
-  font: 500 12px var(--font);
-  font-weight: 600;
+    }
+    
+    h1 {
+    font: 500 12px var(--font);
+    font-weight: 600;
     letter-spacing: 1.5rem;
     opacity: .5;
-}
-
-h2 {
+    }
+    
+    h2 {
     font: 500 12px var(--font);
     font-weight: 600;
     letter-spacing: 1.5rem;
     text-align: right;
     opacity: .5;
-}
-
-h3 {
-  color: #000;
-  font: 430 65px 'Gilroy-ExtraBold';
-  text-align: center;
-  text-transform: uppercase;
-  margin: 50px 0 30px 0;
-  display: block;
-  background: black;
-  width: 300px;
-  height: 500px;
-}
-
-.copy {
-   color: #fff;
-   font: 400 12px 'Gilroy-Regular';
-   display: block;
-   position: absolute;
-   left: 0;
-   right: 0;
-   bottom: 40px;
-   margin: auto;
-   text-align: center;
-}
-
-#circle { 
+    }
+    
+    h3 {
+    color: #000;
+    font: 430 65px 'Gilroy-ExtraBold';
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0 30px 0;
+    display: block;
+    background: black;
+    width: 300px;
+    height: 500px;
+    }
+    
+    .copy {
+    color: #fff;
+    font: 400 12px 'Gilroy-Regular';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: auto;
+    text-align: center;
+    }
+    
+    #circle { 
     position: absolute; 
     width: 365px; 
     padding: 365px; 
@@ -179,21 +179,21 @@ h3 {
     right: 0;
     margin: auto;
     
-}
-
-#circle text {
-  font: 500 0.27rem 'Gilroy-Regular';
+    }
+    
+    #circle text {
+    font: 500 0.27rem 'Gilroy-Regular';
     letter-spacing: 0.51rem;
-
-}
-
-#circle svg {
+    
+    }
+    
+    #circle svg {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-
+    
     -webkit-animation-name: rotate;
     -moz-animation-name: rotate;
     -ms-animation-name: rotate;
@@ -214,41 +214,41 @@ h3 {
     -ms-animation-timing-function: linear;
     -o-animation-timing-function: linear;
     animation-timing-function: linear;
-
-}
-
-@-webkit-keyframes rotate {
+    
+    }
+    
+    @-webkit-keyframes rotate {
     from { -webkit-transform: rotate(-360deg); }
     to { -webkit-transform: rotate(0); }
-}
-@-moz-keyframes rotate {
+    }
+    @-moz-keyframes rotate {
     from { -moz-transform: rotate(-360deg); }
     to { -moz-transform: rotate(0); }
-}
-@-ms-keyframes rotate {
+    }
+    @-ms-keyframes rotate {
     from { -ms-transform: rotate(-360deg); }
     to { -ms-transform: rotate(0); }
-}
-@-o-keyframes rotate {
+    }
+    @-o-keyframes rotate {
     from { -o-transform: rotate(-360deg); }
     to { -o-transform: rotate(0); }
-}
-@keyframes rotate {
+    }
+    @keyframes rotate {
     from { transform: rotate(-360deg); }
     to { transform: rotate(0); }
-}
-
-canvas {
-	position: absolute;
+    }
+    
+    canvas {
+    position: absolute;
     margin: auto;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     z-index: 2;
-}
-
-.inside  img {
+    }
+    
+    .inside  img {
     width: 230px;
     height: 230px;
     display: block;
@@ -281,162 +281,162 @@ canvas {
     -webkit-animation-delay: 0;
     -webkit-animation-play-state: running;
     -webkit-animation-fill-mode: forwards;
-}
-
-@keyframes inside {
+    }
+    
+    @keyframes inside {
     0% {
-        transform: rotate(0deg);
+    transform: rotate(0deg);
     }
     100% {
-        transform: rotate(-360deg);
+    transform: rotate(-360deg);
     }
-}
-
-#section0 {
+    }
+    
+    #section0 {
     background: #E0EAFC;  
     background: -webkit-linear-gradient(45deg, #CFDEF3, #E0EAFC);  
     background: linear-gradient(45deg #CFDEF3, #E0EAFC); 
-}
-
-#section1 {
+    }
+    
+    #section1 {
     background: url(img/menu_bg.png);
     background-attachment: fixed;
-}
-
-#section2 {
+    }
+    
+    #section2 {
     /*background: radial-gradient(ellipse at center bottom, #1ccea6,#2f61e2);*/
     background: url(img/top2.jpg);
     filter: grayscale(1);
     background-size: cover;
     background-attachment: fixed;
-}
+    }
+    
+    .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(0,0,0, 0.7);
+    backdrop-filter: 10px;
+    overflow-y: hidden;
+    transition: 0.5s;
+    }
 
-.overlay {
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  background-color: rgba(0,0,0, 0.7);
-  backdrop-filter: 10px;
-  overflow-y: hidden;
-  transition: 0.5s;
-}
-.overlay.open {
+    .overlay.open {
     height: 100%;
-}
-
-
-#menu {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 224px;
-  right: 0;
-  margin: auto;
-  width: 300px;
-  height: 300px;
-  text-align: center;
-}
-
-#menu li {
+    }
+    
+    #menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 224px;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    }
+    
+    #menu li {
     list-style: none;
     margin: 0 0 20px 0;
-}
+    }
+    
+    .overlay a {
+    text-decoration: none;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .5rem;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    font-family: 'Gilroy-Regular';
+    }
+    
+    .ul a:hover, .overlay a:focus {
+    color: #f1f1f1;
+    }
+    
+    
+    @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    
+    }
+    
+    .btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    top: 20px;
+    left: 20px;
+    transition-duration: 0.5s;
+    transform: scale(0.6);
+    }
 
-.overlay a {
-  text-decoration: none;
-  font-size: 50px;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: .5rem;
-  display: block;
-  transition: 0.3s;
-  text-align: left;
-  font-family: 'Gilroy-Regular';
-}
-
-.ul a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-
-@media screen and (max-height: 450px) {
-  .overlay {overflow-y: auto;}
-  
-}
-
-.btn {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  margin: auto;
-  top: 20px;
-  left: 20px;
-  transition-duration: 0.5s;
-  transform: scale(0.6);
-}
-.btn .icon {
-  transition-duration: 0.5s;
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  background-color: transparent;
-}
-
-.btn .icon:before {
-  transition-duration: 0.5s;
-  position: absolute;
-  width: 40px;
-  height: 3px;
-  background-color: #212121;
-  content: "";
-  left: 0;
-  
-}
-
-.btn .icon:after {
-  transition-duration: 0.5s;
-  position: absolute;
-  width: 40px;
-  height: 3px;
-  background-color: #212121;
-  content: "";
-  top: 20px;
-  left: 0;
-}
-
-.btn.open .icon {
-  transition: 0.5s;
-}
-.btn.white .icon:before, .btn.white .icon:after {
+    .btn .icon {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    }
+    
+    .btn .icon:before {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #212121;
+    content: "";
+    left: 0;
+    }
+    
+    .btn .icon:after {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #212121;
+    content: "";
+    top: 20px;
+    left: 0;
+    }
+    
+    .btn.open .icon {
+    transition: 0.5s;
+    }
+    .btn.white .icon:before, .btn.white .icon:after {
     background: white;
-}
-.btn.open .icon:before {
-  transform: rotateZ(45deg) translate(8px, 12px);
-  background: white;
-}
-
-.btn.open .icon:after {
-  transform: rotateZ(-45deg) translate(2px, -6px);
-  background: white;
-}
-
-.btn:hover {
-  cursor: pointer;
-}
-
-.vicon.active {
+    }
+    .btn.open .icon:before {
+    transform: rotateZ(45deg) translate(8px, 12px);
+    background: white;
+    }
+    
+    .btn.open .icon:after {
+    transform: rotateZ(-45deg) translate(2px, -6px);
+    background: white;
+    }
+    
+    .btn:hover {
+    cursor: pointer;
+    }
+    
+    .vicon.active {
     background: no-repeat center center url("data:image/svg+xml,%3Csvg width='27' height='24' viewBox='0 0 27 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.7901 0.276805C24.4691 0.30016 24.154 0.375473 23.8571 0.499805H23.8531C23.5681 0.612805 22.2131 1.1828 20.1531 2.0468L12.7711 5.1558C7.47409 7.3858 2.26709 9.5818 2.26709 9.5818L2.32909 9.55781C2.32909 9.55781 1.97009 9.67581 1.59509 9.93281C1.36342 10.0802 1.16406 10.2731 1.00909 10.4998C0.825089 10.7698 0.677089 11.1828 0.732089 11.6098C0.822089 12.3318 1.29009 12.7648 1.62609 13.0038C1.96609 13.2458 2.29009 13.3588 2.29009 13.3588H2.29809L7.18109 15.0038C7.40009 15.7068 8.66909 19.8788 8.97409 20.8398C9.15409 21.4138 9.32909 21.7728 9.54809 22.0468C9.65409 22.1868 9.77809 22.3038 9.92709 22.3978C10.0045 22.4429 10.0871 22.4784 10.1731 22.5038L10.1231 22.4918C10.1381 22.4958 10.1501 22.5078 10.1611 22.5118C10.2011 22.5228 10.2281 22.5268 10.2791 22.5348C11.0521 22.7688 11.6731 22.2888 11.6731 22.2888L11.7081 22.2608L14.5911 19.6358L19.4231 23.3428L19.5331 23.3898C20.5401 23.8318 21.5601 23.5858 22.0991 23.1518C22.6421 22.7148 22.8531 22.1558 22.8531 22.1558L22.8881 22.0658L26.6221 2.9368C26.7281 2.4648 26.7551 2.0228 26.6381 1.5938C26.5174 1.15963 26.2389 0.786212 25.8571 0.546804C25.5365 0.35192 25.1648 0.257853 24.7901 0.276805ZM24.6891 2.3268C24.6851 2.3898 24.6971 2.3828 24.6691 2.5038V2.5148L20.9701 21.4448C20.9541 21.4718 20.9271 21.5308 20.8531 21.5898C20.7751 21.6518 20.7131 21.6908 20.3881 21.5618L14.4781 17.0308L10.9081 20.2848L11.6581 15.4948L21.3141 6.4948C21.7121 6.1248 21.5791 6.0468 21.5791 6.0468C21.6071 5.5928 20.9781 5.91381 20.9781 5.91381L8.80209 13.4568L8.79809 13.4368L2.96209 11.4718V11.4678L2.94709 11.4648C2.95732 11.4614 2.96734 11.4574 2.97709 11.4528L3.00909 11.4368L3.04009 11.4258C3.04009 11.4258 8.25109 9.2298 13.5481 6.9998C16.2001 5.8828 18.8721 4.7578 20.9271 3.8898C22.1458 3.37681 23.3658 2.86681 24.5871 2.3598C24.6691 2.3278 24.6301 2.3268 24.6891 2.3268Z' fill='white' style='fill:white;fill-opacity:1;'/%3E%3C/svg%3E%0A");
     background-size: 40%;
-}
-
-.vicon:hover {
-  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='27' height='24' viewBox='0 0 27 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.7901 0.276805C24.4691 0.30016 24.154 0.375473 23.8571 0.499805H23.8531C23.5681 0.612805 22.2131 1.1828 20.1531 2.0468L12.7711 5.1558C7.47409 7.3858 2.26709 9.5818 2.26709 9.5818L2.32909 9.55781C2.32909 9.55781 1.97009 9.67581 1.59509 9.93281C1.36342 10.0802 1.16406 10.2731 1.00909 10.4998C0.825089 10.7698 0.677089 11.1828 0.732089 11.6098C0.822089 12.3318 1.29009 12.7648 1.62609 13.0038C1.96609 13.2458 2.29009 13.3588 2.29009 13.3588H2.29809L7.18109 15.0038C7.40009 15.7068 8.66909 19.8788 8.97409 20.8398C9.15409 21.4138 9.32909 21.7728 9.54809 22.0468C9.65409 22.1868 9.77809 22.3038 9.92709 22.3978C10.0045 22.4429 10.0871 22.4784 10.1731 22.5038L10.1231 22.4918C10.1381 22.4958 10.1501 22.5078 10.1611 22.5118C10.2011 22.5228 10.2281 22.5268 10.2791 22.5348C11.0521 22.7688 11.6731 22.2888 11.6731 22.2888L11.7081 22.2608L14.5911 19.6358L19.4231 23.3428L19.5331 23.3898C20.5401 23.8318 21.5601 23.5858 22.0991 23.1518C22.6421 22.7148 22.8531 22.1558 22.8531 22.1558L22.8881 22.0658L26.6221 2.9368C26.7281 2.4648 26.7551 2.0228 26.6381 1.5938C26.5174 1.15963 26.2389 0.786212 25.8571 0.546804C25.5365 0.35192 25.1648 0.257853 24.7901 0.276805ZM24.6891 2.3268C24.6851 2.3898 24.6971 2.3828 24.6691 2.5038V2.5148L20.9701 21.4448C20.9541 21.4718 20.9271 21.5308 20.8531 21.5898C20.7751 21.6518 20.7131 21.6908 20.3881 21.5618L14.4781 17.0308L10.9081 20.2848L11.6581 15.4948L21.3141 6.4948C21.7121 6.1248 21.5791 6.0468 21.5791 6.0468C21.6071 5.5928 20.9781 5.91381 20.9781 5.91381L8.80209 13.4568L8.79809 13.4368L2.96209 11.4718V11.4678L2.94709 11.4648C2.95732 11.4614 2.96734 11.4574 2.97709 11.4528L3.00909 11.4368L3.04009 11.4258C3.04009 11.4258 8.25109 9.2298 13.5481 6.9998C16.2001 5.8828 18.8721 4.7578 20.9271 3.8898C22.1458 3.37681 23.3658 2.86681 24.5871 2.3598C24.6691 2.3278 24.6301 2.3268 24.6891 2.3268Z' fill='%230000FF' style='fill:%230000FF;fill:color(display-p3 0.0000 0.0000 1.0000);fill-opacity:1;'/%3E%3C/svg%3E%0A");
+    }
+    
+    .vicon:hover {
+    background: no-repeat center center url("data:image/svg+xml,%3Csvg width='27' height='24' viewBox='0 0 27 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.7901 0.276805C24.4691 0.30016 24.154 0.375473 23.8571 0.499805H23.8531C23.5681 0.612805 22.2131 1.1828 20.1531 2.0468L12.7711 5.1558C7.47409 7.3858 2.26709 9.5818 2.26709 9.5818L2.32909 9.55781C2.32909 9.55781 1.97009 9.67581 1.59509 9.93281C1.36342 10.0802 1.16406 10.2731 1.00909 10.4998C0.825089 10.7698 0.677089 11.1828 0.732089 11.6098C0.822089 12.3318 1.29009 12.7648 1.62609 13.0038C1.96609 13.2458 2.29009 13.3588 2.29009 13.3588H2.29809L7.18109 15.0038C7.40009 15.7068 8.66909 19.8788 8.97409 20.8398C9.15409 21.4138 9.32909 21.7728 9.54809 22.0468C9.65409 22.1868 9.77809 22.3038 9.92709 22.3978C10.0045 22.4429 10.0871 22.4784 10.1731 22.5038L10.1231 22.4918C10.1381 22.4958 10.1501 22.5078 10.1611 22.5118C10.2011 22.5228 10.2281 22.5268 10.2791 22.5348C11.0521 22.7688 11.6731 22.2888 11.6731 22.2888L11.7081 22.2608L14.5911 19.6358L19.4231 23.3428L19.5331 23.3898C20.5401 23.8318 21.5601 23.5858 22.0991 23.1518C22.6421 22.7148 22.8531 22.1558 22.8531 22.1558L22.8881 22.0658L26.6221 2.9368C26.7281 2.4648 26.7551 2.0228 26.6381 1.5938C26.5174 1.15963 26.2389 0.786212 25.8571 0.546804C25.5365 0.35192 25.1648 0.257853 24.7901 0.276805ZM24.6891 2.3268C24.6851 2.3898 24.6971 2.3828 24.6691 2.5038V2.5148L20.9701 21.4448C20.9541 21.4718 20.9271 21.5308 20.8531 21.5898C20.7751 21.6518 20.7131 21.6908 20.3881 21.5618L14.4781 17.0308L10.9081 20.2848L11.6581 15.4948L21.3141 6.4948C21.7121 6.1248 21.5791 6.0468 21.5791 6.0468C21.6071 5.5928 20.9781 5.91381 20.9781 5.91381L8.80209 13.4568L8.79809 13.4368L2.96209 11.4718V11.4678L2.94709 11.4648C2.95732 11.4614 2.96734 11.4574 2.97709 11.4528L3.00909 11.4368L3.04009 11.4258C3.04009 11.4258 8.25109 9.2298 13.5481 6.9998C16.2001 5.8828 18.8721 4.7578 20.9271 3.8898C22.1458 3.37681 23.3658 2.86681 24.5871 2.3598C24.6691 2.3278 24.6301 2.3268 24.6891 2.3268Z' fill='%230000FF' style='fill:%230000FF;fill:color(display-p3 0.0000 0.0000 1.0000);fill-opacity:1;'/%3E%3C/svg%3E%0A");
     background-size: 40%;
-}
-.vicon {
+    }
+    .vicon {
     display: block;
     position: fixed;
     width: 60px;
@@ -444,17 +444,17 @@ canvas {
     top: 10px;
     margin: auto;
     right: 2px;
-  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='27' height='24' viewBox='0 0 27 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.7901 0.276805C24.4691 0.30016 24.154 0.375473 23.8571 0.499805H23.8531C23.5681 0.612805 22.2131 1.1828 20.1531 2.0468L12.7711 5.1558C7.47409 7.3858 2.26709 9.5818 2.26709 9.5818L2.32909 9.55781C2.32909 9.55781 1.97009 9.67581 1.59509 9.93281C1.36342 10.0802 1.16406 10.2731 1.00909 10.4998C0.825089 10.7698 0.677089 11.1828 0.732089 11.6098C0.822089 12.3318 1.29009 12.7648 1.62609 13.0038C1.96609 13.2458 2.29009 13.3588 2.29009 13.3588H2.29809L7.18109 15.0038C7.40009 15.7068 8.66909 19.8788 8.97409 20.8398C9.15409 21.4138 9.32909 21.7728 9.54809 22.0468C9.65409 22.1868 9.77809 22.3038 9.92709 22.3978C10.0045 22.4429 10.0871 22.4784 10.1731 22.5038L10.1231 22.4918C10.1381 22.4958 10.1501 22.5078 10.1611 22.5118C10.2011 22.5228 10.2281 22.5268 10.2791 22.5348C11.0521 22.7688 11.6731 22.2888 11.6731 22.2888L11.7081 22.2608L14.5911 19.6358L19.4231 23.3428L19.5331 23.3898C20.5401 23.8318 21.5601 23.5858 22.0991 23.1518C22.6421 22.7148 22.8531 22.1558 22.8531 22.1558L22.8881 22.0658L26.6221 2.9368C26.7281 2.4648 26.7551 2.0228 26.6381 1.5938C26.5174 1.15963 26.2389 0.786212 25.8571 0.546804C25.5365 0.35192 25.1648 0.257853 24.7901 0.276805ZM24.6891 2.3268C24.6851 2.3898 24.6971 2.3828 24.6691 2.5038V2.5148L20.9701 21.4448C20.9541 21.4718 20.9271 21.5308 20.8531 21.5898C20.7751 21.6518 20.7131 21.6908 20.3881 21.5618L14.4781 17.0308L10.9081 20.2848L11.6581 15.4948L21.3141 6.4948C21.7121 6.1248 21.5791 6.0468 21.5791 6.0468C21.6071 5.5928 20.9781 5.91381 20.9781 5.91381L8.80209 13.4568L8.79809 13.4368L2.96209 11.4718V11.4678L2.94709 11.4648C2.95732 11.4614 2.96734 11.4574 2.97709 11.4528L3.00909 11.4368L3.04009 11.4258C3.04009 11.4258 8.25109 9.2298 13.5481 6.9998C16.2001 5.8828 18.8721 4.7578 20.9271 3.8898C22.1458 3.37681 23.3658 2.86681 24.5871 2.3598C24.6691 2.3278 24.6301 2.3268 24.6891 2.3268Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3C/svg%3E%0A");
+    background: no-repeat center center url("data:image/svg+xml,%3Csvg width='27' height='24' viewBox='0 0 27 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.7901 0.276805C24.4691 0.30016 24.154 0.375473 23.8571 0.499805H23.8531C23.5681 0.612805 22.2131 1.1828 20.1531 2.0468L12.7711 5.1558C7.47409 7.3858 2.26709 9.5818 2.26709 9.5818L2.32909 9.55781C2.32909 9.55781 1.97009 9.67581 1.59509 9.93281C1.36342 10.0802 1.16406 10.2731 1.00909 10.4998C0.825089 10.7698 0.677089 11.1828 0.732089 11.6098C0.822089 12.3318 1.29009 12.7648 1.62609 13.0038C1.96609 13.2458 2.29009 13.3588 2.29009 13.3588H2.29809L7.18109 15.0038C7.40009 15.7068 8.66909 19.8788 8.97409 20.8398C9.15409 21.4138 9.32909 21.7728 9.54809 22.0468C9.65409 22.1868 9.77809 22.3038 9.92709 22.3978C10.0045 22.4429 10.0871 22.4784 10.1731 22.5038L10.1231 22.4918C10.1381 22.4958 10.1501 22.5078 10.1611 22.5118C10.2011 22.5228 10.2281 22.5268 10.2791 22.5348C11.0521 22.7688 11.6731 22.2888 11.6731 22.2888L11.7081 22.2608L14.5911 19.6358L19.4231 23.3428L19.5331 23.3898C20.5401 23.8318 21.5601 23.5858 22.0991 23.1518C22.6421 22.7148 22.8531 22.1558 22.8531 22.1558L22.8881 22.0658L26.6221 2.9368C26.7281 2.4648 26.7551 2.0228 26.6381 1.5938C26.5174 1.15963 26.2389 0.786212 25.8571 0.546804C25.5365 0.35192 25.1648 0.257853 24.7901 0.276805ZM24.6891 2.3268C24.6851 2.3898 24.6971 2.3828 24.6691 2.5038V2.5148L20.9701 21.4448C20.9541 21.4718 20.9271 21.5308 20.8531 21.5898C20.7751 21.6518 20.7131 21.6908 20.3881 21.5618L14.4781 17.0308L10.9081 20.2848L11.6581 15.4948L21.3141 6.4948C21.7121 6.1248 21.5791 6.0468 21.5791 6.0468C21.6071 5.5928 20.9781 5.91381 20.9781 5.91381L8.80209 13.4568L8.79809 13.4368L2.96209 11.4718V11.4678L2.94709 11.4648C2.95732 11.4614 2.96734 11.4574 2.97709 11.4528L3.00909 11.4368L3.04009 11.4258C3.04009 11.4258 8.25109 9.2298 13.5481 6.9998C16.2001 5.8828 18.8721 4.7578 20.9271 3.8898C22.1458 3.37681 23.3658 2.86681 24.5871 2.3598C24.6691 2.3278 24.6301 2.3268 24.6891 2.3268Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3C/svg%3E%0A");
     background-size: 40%;
     z-index: 1000;
-}
-
-.share.active {
+    }
+    
+    .share.active {
     background: no-repeat center center url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 2.5C0 1.83696 0.263392 1.20107 0.732233 0.732233C1.20107 0.263392 1.83696 0 2.5 0H7.5C8.16304 0 8.79893 0.263392 9.26777 0.732233C9.73661 1.20107 10 1.83696 10 2.5C10 2.63261 9.94732 2.75979 9.85355 2.85355C9.75979 2.94732 9.63261 3 9.5 3C9.36739 3 9.24021 2.94732 9.14645 2.85355C9.05268 2.75979 9 2.63261 9 2.5C9 2.10218 8.84196 1.72064 8.56066 1.43934C8.27936 1.15804 7.89782 1 7.5 1H2.5C2.10218 1 1.72064 1.15804 1.43934 1.43934C1.15804 1.72064 1 2.10218 1 2.5V7.5C1 7.89782 1.15804 8.27936 1.43934 8.56066C1.72064 8.84196 2.10218 9 2.5 9H7.014C7.07583 8.45058 7.33778 7.94316 7.74988 7.57456C8.16198 7.20597 8.69537 7.00201 9.24826 7.00161C9.80115 7.00121 10.3348 7.20439 10.7475 7.57239C11.1601 7.94038 11.4228 8.44743 11.4854 8.99676C11.548 9.54609 11.4062 10.0992 11.087 10.5507C10.7678 11.0021 10.2935 11.3202 9.75472 11.4442C9.21592 11.5683 8.65032 11.4896 8.16583 11.2232C7.68135 10.9569 7.3119 10.5214 7.128 10H2.5C1.83696 10 1.20107 9.73661 0.732233 9.26777C0.263392 8.79893 0 8.16304 0 7.5V2.5ZM8 9.25C8 9.58152 8.1317 9.89946 8.36612 10.1339C8.60054 10.3683 8.91848 10.5 9.25 10.5C9.58152 10.5 9.89946 10.3683 10.1339 10.1339C10.3683 9.89946 10.5 9.58152 10.5 9.25C10.5 8.91848 10.3683 8.60054 10.1339 8.36612C9.89946 8.1317 9.58152 8 9.25 8C8.91848 8 8.60054 8.1317 8.36612 8.36612C8.1317 8.60054 8 8.91848 8 9.25ZM4.5 11C4.36739 11 4.24021 11.0527 4.14645 11.1464C4.05268 11.2402 4 11.3674 4 11.5C4 12.163 4.26339 12.7989 4.73223 13.2678C5.20107 13.7366 5.83696 14 6.5 14H11.5C12.163 14 12.7989 13.7366 13.2678 13.2678C13.7366 12.7989 14 12.163 14 11.5V6.5C14 5.83696 13.7366 5.20107 13.2678 4.73223C12.7989 4.26339 12.163 4 11.5 4H6.872C6.6881 3.47859 6.31865 3.04315 5.83417 2.77676C5.34968 2.51038 4.78408 2.43171 4.24528 2.55576C3.70649 2.67981 3.23223 2.9979 2.91302 3.44933C2.5938 3.90075 2.45197 4.45391 2.51459 5.00324C2.57722 5.55257 2.83991 6.05962 3.25254 6.42761C3.66517 6.79561 4.19885 6.99879 4.75174 6.99839C5.30463 6.99799 5.83802 6.79403 6.25012 6.42544C6.66222 6.05684 6.92417 5.54942 6.986 5H11.5C11.8978 5 12.2794 5.15804 12.5607 5.43934C12.842 5.72064 13 6.10218 13 6.5V11.5C13 11.8978 12.842 12.2794 12.5607 12.5607C12.2794 12.842 11.8978 13 11.5 13H6.5C6.10218 13 5.72064 12.842 5.43934 12.5607C5.15804 12.2794 5 11.8978 5 11.5C5 11.3674 4.94732 11.2402 4.85355 11.1464C4.75979 11.0527 4.63261 11 4.5 11ZM4.75 3.5C5.08152 3.5 5.39946 3.6317 5.63388 3.86612C5.8683 4.10054 6 4.41848 6 4.75C6 5.08152 5.8683 5.39946 5.63388 5.63388C5.39946 5.8683 5.08152 6 4.75 6C4.41848 6 4.10054 5.8683 3.86612 5.63388C3.6317 5.39946 3.5 5.08152 3.5 4.75C3.5 4.41848 3.6317 4.10054 3.86612 3.86612C4.10054 3.6317 4.41848 3.5 4.75 3.5V3.5Z' fill='white'/%3E%3C/svg%3E%0A");
     background-size: 40%;
-}
-
-.share {
+    }
+    
+    .share {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -463,218 +463,219 @@ canvas {
     left: 10px;
     background: no-repeat center center url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 2.5C0 1.83696 0.263392 1.20107 0.732233 0.732233C1.20107 0.263392 1.83696 0 2.5 0H7.5C8.16304 0 8.79893 0.263392 9.26777 0.732233C9.73661 1.20107 10 1.83696 10 2.5C10 2.63261 9.94732 2.75979 9.85355 2.85355C9.75979 2.94732 9.63261 3 9.5 3C9.36739 3 9.24021 2.94732 9.14645 2.85355C9.05268 2.75979 9 2.63261 9 2.5C9 2.10218 8.84196 1.72064 8.56066 1.43934C8.27936 1.15804 7.89782 1 7.5 1H2.5C2.10218 1 1.72064 1.15804 1.43934 1.43934C1.15804 1.72064 1 2.10218 1 2.5V7.5C1 7.89782 1.15804 8.27936 1.43934 8.56066C1.72064 8.84196 2.10218 9 2.5 9H7.014C7.07583 8.45058 7.33778 7.94316 7.74988 7.57456C8.16198 7.20597 8.69537 7.00201 9.24826 7.00161C9.80115 7.00121 10.3348 7.20439 10.7475 7.57239C11.1601 7.94038 11.4228 8.44743 11.4854 8.99676C11.548 9.54609 11.4062 10.0992 11.087 10.5507C10.7678 11.0021 10.2935 11.3202 9.75472 11.4442C9.21592 11.5683 8.65032 11.4896 8.16583 11.2232C7.68135 10.9569 7.3119 10.5214 7.128 10H2.5C1.83696 10 1.20107 9.73661 0.732233 9.26777C0.263392 8.79893 0 8.16304 0 7.5V2.5ZM8 9.25C8 9.58152 8.1317 9.89946 8.36612 10.1339C8.60054 10.3683 8.91848 10.5 9.25 10.5C9.58152 10.5 9.89946 10.3683 10.1339 10.1339C10.3683 9.89946 10.5 9.58152 10.5 9.25C10.5 8.91848 10.3683 8.60054 10.1339 8.36612C9.89946 8.1317 9.58152 8 9.25 8C8.91848 8 8.60054 8.1317 8.36612 8.36612C8.1317 8.60054 8 8.91848 8 9.25ZM4.5 11C4.36739 11 4.24021 11.0527 4.14645 11.1464C4.05268 11.2402 4 11.3674 4 11.5C4 12.163 4.26339 12.7989 4.73223 13.2678C5.20107 13.7366 5.83696 14 6.5 14H11.5C12.163 14 12.7989 13.7366 13.2678 13.2678C13.7366 12.7989 14 12.163 14 11.5V6.5C14 5.83696 13.7366 5.20107 13.2678 4.73223C12.7989 4.26339 12.163 4 11.5 4H6.872C6.6881 3.47859 6.31865 3.04315 5.83417 2.77676C5.34968 2.51038 4.78408 2.43171 4.24528 2.55576C3.70649 2.67981 3.23223 2.9979 2.91302 3.44933C2.5938 3.90075 2.45197 4.45391 2.51459 5.00324C2.57722 5.55257 2.83991 6.05962 3.25254 6.42761C3.66517 6.79561 4.19885 6.99879 4.75174 6.99839C5.30463 6.99799 5.83802 6.79403 6.25012 6.42544C6.66222 6.05684 6.92417 5.54942 6.986 5H11.5C11.8978 5 12.2794 5.15804 12.5607 5.43934C12.842 5.72064 13 6.10218 13 6.5V11.5C13 11.8978 12.842 12.2794 12.5607 12.5607C12.2794 12.842 11.8978 13 11.5 13H6.5C6.10218 13 5.72064 12.842 5.43934 12.5607C5.15804 12.2794 5 11.8978 5 11.5C5 11.3674 4.94732 11.2402 4.85355 11.1464C4.75979 11.0527 4.63261 11 4.5 11ZM4.75 3.5C5.08152 3.5 5.39946 3.6317 5.63388 3.86612C5.8683 4.10054 6 4.41848 6 4.75C6 5.08152 5.8683 5.39946 5.63388 5.63388C5.39946 5.8683 5.08152 6 4.75 6C4.41848 6 4.10054 5.8683 3.86612 5.63388C3.6317 5.39946 3.5 5.08152 3.5 4.75C3.5 4.41848 3.6317 4.10054 3.86612 3.86612C4.10054 3.6317 4.41848 3.5 4.75 3.5V3.5Z' fill='%231A2030'/%3E%3C/svg%3E%0A");
     background-size: 40%;
-}
-#moveDown {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-p span {
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  width: 14px;
-  height: 14px;
-  margin-left: -12px;
-  border-left: 1px solid #000;
-  border-bottom: 1px solid #000;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-animation: sdb 2s infinite;
-  animation: sdb 2s infinite;
-  opacity: 0;
-  box-sizing: border-box;
-}
-p span:nth-of-type(1) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-p span:nth-of-type(2) {
-  bottom: 40px;
-  -webkit-animation-delay: .15s;
-  animation-delay: .15s;
-}
-p span:nth-of-type(3) {
-  bottom: 32px;
-  -webkit-animation-delay: .3s;
-  animation-delay: .3s;
-}
-@-webkit-keyframes sdb {
-  0% {
-    opacity: 0;
-}
-50% {
-    opacity: 1;
-}
-100% {
-    opacity: 0;
-}
-}
-@keyframes sdb {
-  0% {
-    opacity: 0;
-}
-50% {
-    opacity: 1;
-}
-100% {
-    opacity: 0;
-}
-}
+    }
 
+    #moveDown {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
 
-
-
-.line {
-  position: absolute;
-  width: 1px;
-  height: 40%;
-  top: 0;
-  left: 50%;
-  background: rgba(0, 0, 0, 0);
-  overflow: hidden;
-  transform: rotate(90deg);
-}
-
-.line::after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 13vh;
-  width: 100%;
-  top: -50%;
-  left: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000 75%, #000 100%);
-  -webkit-animation: drop 3s 0s infinite;
-  animation: drop 3s 0s infinite;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
-  animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
-}
-
-.line:nth-child(1) {
-  margin: 12% 0 0 -25%;
-}
-
-.line:nth-child(1)::after {
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-}
-
-.line:nth-child(3) {
-  margin: 18% 0 0 23%;
-  transform: rotate(-90deg);
-}
-
-.line:nth-child(3)::after {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
-}
-
-@-webkit-keyframes drop {
-  0% {
-    top: -50%;
-}
-100% {
-    top: 110%;
-}
-}
-
-@keyframes drop {
-  0% {
-    top: -50%;
-}
-100% {
-    top: 110%;
-}
-}
-/*
-@-webkit-keyframes drop_left {
-  0% {
+    p span {
+    position: absolute;
+    bottom: 50px;
     left: 50%;
-}
-100% {
-    left: -110%;
-}
-}*/
-
-@keyframes drop_left {
-  0% {
-    bottom: -50%;
-}
-100% {
-    bottom: 110%;
-}
-}
-
-.filled {
-        position: absolute;
-        text-align: center;
-        transition: color 0.3s ease 0s;
+    width: 14px;
+    height: 14px;
+    margin-left: -12px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 2s infinite;
+    animation: sdb 2s infinite;
+    opacity: 0;
+    box-sizing: border-box;
     }
 
-    .filled svg {
-        width: 820px;
+    p span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
     }
-
-    .stroked {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        display: flex;
-        width: 0px;
-        height: 100%;
-        overflow: hidden;
-        transition: width 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87) 0s;
+    p span:nth-of-type(2) {
+    bottom: 40px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
     }
-
-    .stroked svg {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 820px;
+    p span:nth-of-type(3) {
+    bottom: 32px;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
     }
-
-    .filled:hover {
-        color: black;
+    @-webkit-keyframes sdb {
+    0% {
+    opacity: 0;
     }
-
-    .filled:hover > span {
-        width: 100%;
+    50% {
+    opacity: 1;
     }
-
-    .center {
-        width: 820px;
-        height: 0px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
+    100% {
+    opacity: 0;
     }
-
-    .parent {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        overflow: auto;
     }
-    .fp-tableCell {
-      display: flex!important;
-      align-items: center;
-      justify-content: center;
-      flex-direction: row;
-      width: 101%;
-      height: 500px!important;
+    @keyframes sdb {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 1;
+    }
+    100% {
+    opacity: 0;
+    }
     }
     
-
-.case-container {
+  
+    
+    .line {
+    position: absolute;
+    width: 1px;
+    height: 40%;
+    top: 0;
+    left: 50%;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    transform: rotate(90deg);
+    }
+    
+    .line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 13vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000 75%, #000 100%);
+    -webkit-animation: drop 3s 0s infinite;
+    animation: drop 3s 0s infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+    }
+    
+    .line:nth-child(1) {
+    margin: 12% 0 0 -25%;
+    }
+    
+    .line:nth-child(1)::after {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    }
+    
+    .line:nth-child(3) {
+    margin: 18% 0 0 23%;
+    transform: rotate(-90deg);
+    }
+    
+    .line:nth-child(3)::after {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    }
+    
+    @-webkit-keyframes drop {
+    0% {
+    top: -50%;
+    }
+    100% {
+    top: 110%;
+    }
+    }
+    
+    @keyframes drop {
+    0% {
+    top: -50%;
+    }
+    100% {
+    top: 110%;
+    }
+    }
+    /*
+    @-webkit-keyframes drop_left {
+    0% {
+    left: 50%;
+    }
+    100% {
+    left: -110%;
+    }
+    }*/
+    
+    @keyframes drop_left {
+    0% {
+    bottom: -50%;
+    }
+    100% {
+    bottom: 110%;
+    }
+    }
+    
+    .filled {
+    position: absolute;
+    text-align: center;
+    transition: color 0.3s ease 0s;
+    }
+    
+    .filled svg {
+    width: 820px;
+    }
+    
+    .stroked {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    transition: width 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87) 0s;
+    }
+    
+    .stroked svg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 820px;
+    }
+    
+    .filled:hover {
+    color: black;
+    }
+    
+    .filled:hover > span {
+    width: 100%;
+    }
+    
+    .center {
+    width: 820px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    }
+    
+    .parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    }
+    .fp-tableCell {
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 101%;
+    height: 500px!important;
+    }
+    
+    .case-container {
     width: 1280px;
     height: 0;
     margin: auto;
@@ -690,161 +691,161 @@ p span:nth-of-type(3) {
     gap: 10px 10px; 
     align-content: center; 
     align-items: center;
-}
-
-.case-item  {
-  margin-right: 12px;
-}
-
-/* _______________ card item-1 _______________ */
-
-.case-item.item-1 {
-  background: url(cases/sg.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-1:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-1.open {
-  background: url(cases/sg1.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-1:hover .title {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-1 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1
-}
-
-/* _______________ end card _______________ */
-
-/* _______________ picture _______________ */
-
-
-img.enter-pic {
-  width: 132px;
-  height: auto;
-  position: absolute;
-  margin: 232px 0 0 90px;
+    }
+    
+    .case-item  {
+    margin-right: 12px;
+    }
+    
+    /* _______________ card item-1 _______________ */
+    
+    .case-item.item-1 {
+    background: url(cases/sg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-1:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-1.open {
+    background: url(cases/sg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-1:hover .title {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-1 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ picture _______________ */
+    
+    
+    img.enter-pic {
+    width: 132px;
+    height: auto;
+    position: absolute;
+    margin: 232px 0 0 90px;
     transition: .5s all;
     opacity: 1;
-}
-
-.case-item:hover img.enter-pic {
-  width: 132px;
+    }
+    
+    .case-item:hover img.enter-pic {
+    width: 132px;
     height: auto;
     margin: 150px 0 0 90px;
-}
-
-img.enter-pic.delete {
-  transform: scale(0);
-}
-
-img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -272px;
-  left: -170px;
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-img.bayk.play {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -272px;
-  left: 30px;
-  cursor: none; 
-}
-
-/* _______________ end picture _______________ */
-
-/* _______________ content _______________ */
-
-.a_container {
-  min-width: 320px;
-  height: 500px;
-  overflow: hidden;
-  border-radius: 8px;
-  display: block;
-}
-
-
-.title {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  width: 320px;
-  margin: auto;
-  font-family: 'MTSWide-Medium';
-  top: 45%;
-  text-align: center;
-  opacity: 0;
-  transition: .5s all;
-}
-
-.title p {
-  font-size: 14px;
-  font-family: 'MTSWide-Regular';
-  padding: 12px 52px 12px 52px;
-  text-transform: math-auto;
-  opacity: .6;
-}
-
-a.down {
-  font-family: 'MTSWide-Regular';
-  text-transform: none;
-  font-size: 10px;
-  display: block;
-  margin: 30px;
-  color: black;
-  position: absolute;
-  top: 0px;
-  transition: cubic-bezier(0.19, 1, 0.22, 1) .8s;
-  transform: scale(0);
-  opacity: .7;
-}
-
-a.down.play {
-  top: 0px;
-  transform: scale(1);
-}
-
-a.UP1.play {
-  top: 0px;
-  transform: scale(1);
-}
-
-a.UP1 {
-  font-family: 'MTSWide-Regular';
-  text-transform: none;
-  font-size: 10px;
+    }
+    
+    img.enter-pic.delete {
+    transform: scale(0);
+    }
+    
+    img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -272px;
+    left: -170px;
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    img.bayk.play {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -272px;
+    left: 30px;
+    cursor: none; 
+    }
+    
+    /* _______________ end picture _______________ */
+    
+    /* _______________ content _______________ */
+    
+    .a_container {
+    min-width: 320px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+    display: block;
+    }
+    
+    
+    .title {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    width: 320px;
+    margin: auto;
+    font-family: 'MTSWide-Medium';
+    top: 45%;
+    text-align: center;
+    opacity: 0;
+    transition: .5s all;
+    }
+    
+    .title p {
+    font-size: 14px;
+    font-family: 'MTSWide-Regular';
+    padding: 12px 52px 12px 52px;
+    text-transform: math-auto;
+    opacity: .6;
+    }
+    
+    a.down {
+    font-family: 'MTSWide-Regular';
+    text-transform: none;
+    font-size: 10px;
+    display: block;
+    margin: 30px;
+    color: black;
+    position: absolute;
+    top: 0px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .8s;
+    transform: scale(0);
+    opacity: .7;
+    }
+    
+    a.down.play {
+    top: 0px;
+    transform: scale(1);
+    }
+    
+    a.UP1.play {
+    top: 0px;
+    transform: scale(1);
+    }
+    
+    a.UP1 {
+    font-family: 'MTSWide-Regular';
+    text-transform: none;
+    font-size: 10px;
     display: block;
     margin: -143px 0 0 260px;
     color: #000;
@@ -852,1107 +853,1130 @@ a.UP1 {
     right: 0;
     transform: scale(0);
     opacity: .7;
-}
+    }
 
-/* _______________ arrow _______________ */
-
-.arrow {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  margin: 380px 0 0 240px;
-  display: block;
-  transition: .5s all;
-  transform: scale(0);
-  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438L27.4436 19.131Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438' stroke='black' style='stroke:black;stroke-opacity:1;'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4438' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
-}
-
-.arrow.play {
-  display: block;
-  transform: scale(1);
-  transition: .5s all;
-  animation: pulse-black 2s infinite;
-}
-
-.arrow.play:hover {
-  width: 46px;
-  height: 46px;
-  margin: 380px 0 0 240px;
-  display: block;
-  transition: .5s all;
-  transform: scale(1) rotate(45deg)!important;
-  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' fill='black' stroke='white' stroke-opacity='0.2' style='fill:black;fill-opacity:1;stroke:white;stroke-opacity:0.2;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
-}
-
-
-  /* _______________ end arrow _______________ */
-
-/* _______________ arrow white _______________ */
-
-.arrow_w {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  margin: 380px 0 0 240px;
-  display: block;
-  transition: .5s all;
-  transform: scale(0);
-  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438L27.4436 19.131Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438' stroke='white' style='stroke:white;stroke-opacity:1;'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4438' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
-}
-
-.arrow_w.play {
-  display: block;
-  transform: scale(1);
-  transition: .5s all;
-  animation: pulse-black 2s infinite;
-}
-
-.arrow_w.play:hover {
-  width: 46px;
-  height: 46px;
-  margin: 380px 0 0 240px;
-  display: block;
-  transition: .5s all;
-  transform: scale(1) rotate(45deg)!important;
-  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' fill='black' stroke='white' stroke-opacity='0.2' style='fill:black;fill-opacity:1;stroke:white;stroke-opacity:0.2;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
-}
-
-
-  /* _______________ end arrow white _______________ */
-
-  /* _______________ 3 slide _______________ */
-
-
-  
-  .txt {
+    .nda {
+      font-size: 11px;
+      font-family: 'MTSWide-Medium';
+      width: 50px;
+      height: 17px;
+      background: red;
+      color: white;
+      margin: -14px 0 0 32px;
+      bottom: 33px;
+      left: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      padding-top: 1px;
+      transform: scale(0);
+      transition: cubic-bezier(0.215, 0.610, 0.355, 1) .8s;
+    }
+    .nda.play {
+      transform: scale(1);
+    }
+    
+    /* _______________ arrow _______________ */
+    
+    .arrow {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin: 380px 0 0 240px;
+    display: block;
+    transition: .5s all;
+    transform: scale(0);
+    background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438L27.4436 19.131Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438' stroke='black' style='stroke:black;stroke-opacity:1;'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4438' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
+    }
+    
+    .arrow.play {
+    display: block;
+    transform: scale(1);
+    transition: .5s all;
+    animation: pulse-black 2s infinite;
+    }
+    
+    .arrow.play:hover {
+    width: 46px;
+    height: 46px;
+    margin: 380px 0 0 240px;
+    display: block;
+    transition: .5s all;
+    transform: scale(1) rotate(45deg)!important;
+    background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' fill='black' stroke='white' stroke-opacity='0.2' style='fill:black;fill-opacity:1;stroke:white;stroke-opacity:0.2;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
+    }
+    
+    
+    /* _______________ end arrow _______________ */
+    
+    /* _______________ arrow white _______________ */
+    
+    .arrow_w {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin: 380px 0 0 240px;
+    display: block;
+    transition: .5s all;
+    transform: scale(0);
+    background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438L27.4436 19.131Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438' stroke='white' style='stroke:white;stroke-opacity:1;'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4438' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
+    }
+    
+    .arrow_w.play {
+    display: block;
+    transform: scale(1);
+    transition: .5s all;
+    animation: pulse-black 2s infinite;
+    }
+    
+    .arrow_w.play:hover {
+    width: 46px;
+    height: 46px;
+    margin: 380px 0 0 240px;
+    display: block;
+    transition: .5s all;
+    transform: scale(1) rotate(45deg)!important;
+    background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' fill='black' stroke='white' stroke-opacity='0.2' style='fill:black;fill-opacity:1;stroke:white;stroke-opacity:0.2;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
+    }
+    
+    
+    /* _______________ end arrow white _______________ */
+    
+    /* _______________ 3 slide _______________ */
+    
+    
+    
+    .txt {
     width: 400px;
     height: 50px;
-      color: white;
-      font-family: monospace;
-      text-align: center;
-      font-size: 14px;
-      line-height: 20px;
-      position: absolute;
-      margin: auto;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-  }
-  
-  
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+    
+    
     /* _______________ 3 slide _______________ */
-
+    
     /* _______________ card item-2 _______________ */
-
-.case-item.item-2 {
-  background: url(cases/aero.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-2:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-2.open {
-  background: url(cases/aero1.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-2:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-2 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-2 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-2 img.bayk.play {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(1.1);
-  cursor: none; 
-}
-
-.case-item.item-2 img.enter-pic {
-  width: 132px;
-  height: auto;
-  position: absolute;
-  margin: 212px 0 0 90px;
-  transition: .5s all;
-}
-
-.case-item.item-2:hover img.enter-pic {
-  width: 132px;
-  height: auto;
-  margin: 130px 0 0 90px;
-}
-
-/* _______________ end card _______________ */
-
- /* _______________ card item-3 _______________ */
-
- .case-item.item-3 {
-  background: url(cases/gos1.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-3:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-3.open {
-  background: url(cases/gos2.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-3:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-3 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.maks {
-  width: 162px;
-  height: 173px;
-  position: relative;
-  bottom: -602px;
-  left: 30px;
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .4s;
-  display: block;
-  background: url(cases/maks1.svg) no-repeat center center;
-}
-
-.maks.play {
-  width: 162px;
-  height: 173px;
-  position: relative;
-  bottom: -292px;
-  left: 30px;
-  display: block;
-  background: url(cases/maks1.svg) no-repeat center center;
-}
-
-.maks.play:hover {
-  width: 162px;
-  height: 173px;
-  position: relative;
-  bottom: -290px;
-  left: 29px;
-  display: block;
-  background: url(cases/maks2.svg) no-repeat center center;
-}
-
-.case-item.item-3 img.enter-pic {
+    
+    .case-item.item-2 {
+    background: url(cases/aero.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-2:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-2.open {
+    background: url(cases/aero1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-2:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-2 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-2 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-2 img.bayk.play {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(1.1);
+    cursor: none; 
+    }
+    
+    .case-item.item-2 img.enter-pic {
+    width: 132px;
+    height: auto;
+    position: absolute;
+    margin: 212px 0 0 90px;
+    transition: .5s all;
+    }
+    
+    .case-item.item-2:hover img.enter-pic {
+    width: 132px;
+    height: auto;
+    margin: 130px 0 0 90px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-3 _______________ */
+    
+    .case-item.item-3 {
+    background: url(cases/gos1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-3:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-3.open {
+    background: url(cases/gos2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-3:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-3 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .maks {
+    width: 162px;
+    height: 173px;
+    position: relative;
+    bottom: -602px;
+    left: 30px;
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .4s;
+    display: block;
+    background: url(cases/maks1.svg) no-repeat center center;
+    }
+    
+    .maks.play {
+    width: 162px;
+    height: 173px;
+    position: relative;
+    bottom: -292px;
+    left: 30px;
+    display: block;
+    background: url(cases/maks1.svg) no-repeat center center;
+    }
+    
+    .maks.play:hover {
+    width: 162px;
+    height: 173px;
+    position: relative;
+    bottom: -290px;
+    left: 29px;
+    display: block;
+    background: url(cases/maks2.svg) no-repeat center center;
+    }
+    
+    .case-item.item-3 img.enter-pic {
     width: 152px;
     height: auto;
     position: absolute;
     margin: 205px 0 0 82px;
     transition: .5s all;
     opacity: 1;
-}
-
-.case-item.item-3:hover img.enter-pic {
-  width: 152px;
-  height: auto;
-  margin: 145px 0 0 82px;
-}
-.white {
-  color: white!important;
-}
-/* _______________ end card _______________ */
-
- /* _______________ card item-4 _______________ */
-
- .case-item.item-4 {
-  background: url(cases/bon.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-4:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-4.open {
-  background: url(cases/bon.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-4:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-4 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-4 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-4 img.bayk.play {
-  width: 162px;
+    }
+    
+    .case-item.item-3:hover img.enter-pic {
+    width: 152px;
+    height: auto;
+    margin: 145px 0 0 82px;
+    }
+    .white {
+    color: white!important;
+    }
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-4 _______________ */
+    
+    .case-item.item-4 {
+    background: url(cases/bon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-4:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-4.open {
+    background: url(cases/bon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-4:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-4 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-4 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-4 img.bayk.play {
+    width: 162px;
     height: 168px;
     position: relative;
     bottom: -282px;
     left: 80px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-4 img.enter-pic {
+    }
+    
+    .case-item.item-4 img.enter-pic {
     width: 62px;
     height: auto;
     position: absolute;
     margin: 220px 0 0 130px;
     transition: .5s all;
     opacity: 1;
-}
-
-.case-item.item-4:hover img.enter-pic {
-  width: 62px;
-  height: auto;
-  margin: 130px 0 0 130px;
-}
-
-/* _______________ end card _______________ */
-
-/* _______________ card item-4 _______________ */
-
- .case-item.item-4 {
-  background: url(cases/bon.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-4:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-4.open {
-  background: url(cases/bon.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-4:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-4 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-4 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-4 img.bayk.play {
-  width: 162px;
+    }
+    
+    .case-item.item-4:hover img.enter-pic {
+    width: 62px;
+    height: auto;
+    margin: 130px 0 0 130px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-4 _______________ */
+    
+    .case-item.item-4 {
+    background: url(cases/bon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-4:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-4.open {
+    background: url(cases/bon.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-4:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-4 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-4 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-4 img.bayk.play {
+    width: 162px;
     height: 168px;
     position: relative;
     bottom: -282px;
     left: 80px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-4 img.enter-pic {
+    }
+    
+    .case-item.item-4 img.enter-pic {
     width: 62px;
     height: auto;
     position: absolute;
     margin: 220px 0 0 130px;
     transition: .5s all;
     opacity: 1;
-}
-
-.case-item.item-4:hover img.enter-pic {
-  width: 62px;
-  height: auto;
-  margin: 130px 0 0 130px;
-}
-
-/* _______________ end card _______________ */
-
-/* _______________ card item-5 _______________ */
-
-.case-item.item-5 {
-  background: url(cases/dbr.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-5:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-5.open {
-  background: url(cases/dbr1.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-5:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-5 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-5 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-5 img.bayk.play {
-  width: 162px;
+    }
+    
+    .case-item.item-4:hover img.enter-pic {
+    width: 62px;
+    height: auto;
+    margin: 130px 0 0 130px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-5 _______________ */
+    
+    .case-item.item-5 {
+    background: url(cases/dbr.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-5:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-5.open {
+    background: url(cases/dbr1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-5:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-5 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-5 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-5 img.bayk.play {
+    width: 162px;
     height: 168px;
     position: relative;
     bottom: -282px;
     left: 80px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-5 img.enter-pic {
-  width: 72px;
-  height: auto;
-  margin: 220px 0 0 127px;
+    }
+    
+    .case-item.item-5 img.enter-pic {
+    width: 72px;
+    height: auto;
+    margin: 220px 0 0 127px;
     position: absolute;
     transition: .5s all;
     opacity: 1;
-}
-
-.case-item.item-5:hover img.enter-pic {
-  width: 72px;
-  height: auto;
-  margin: 130px 0 0 127px;
-}
-
-/* _______________ end card _______________ */
-
-/* _______________ card item-6 _______________ */
-
-.case-item.item-6 {
-  background: url(cases/mo.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-6:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-6.open {
-  background: url(cases/mo.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-6:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-6 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-6 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-6 img.bayk.play {
-  width: 162px;
+    }
+    
+    .case-item.item-5:hover img.enter-pic {
+    width: 72px;
+    height: auto;
+    margin: 130px 0 0 127px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-6 _______________ */
+    
+    .case-item.item-6 {
+    background: url(cases/mo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-6:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-6.open {
+    background: url(cases/mo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-6:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-6 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-6 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-6 img.bayk.play {
+    width: 162px;
     height: 168px;
     position: relative;
     bottom: -282px;
     left: 80px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-6 img.enter-pic {
-  width: 112px;
-  height: auto;
-  position: absolute;
-  margin: 220px 0 0 110px;
-  transition: .5s all;
-  opacity: 1;
-}
-
-.case-item.item-6:hover img.enter-pic {
-  width: 112px;
-  height: auto;
-  margin: 130px 0 0 110px;
-}
-
-/* _______________ end card _______________ */
-
-
-/* _______________ card item-7 _______________ */
-
-.case-item.item-7 {
-  background: url(cases/wh.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-7:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-7.open {
-  background: url(cases/wh.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-7:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-7 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-7 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-7 img.bayk.play {
-  width: 162px;
+    }
+    
+    .case-item.item-6 img.enter-pic {
+    width: 112px;
+    height: auto;
+    position: absolute;
+    margin: 220px 0 0 110px;
+    transition: .5s all;
+    opacity: 1;
+    }
+    
+    .case-item.item-6:hover img.enter-pic {
+    width: 112px;
+    height: auto;
+    margin: 130px 0 0 110px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    
+    /* _______________ card item-7 _______________ */
+    
+    .case-item.item-7 {
+    background: url(cases/wh.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-7:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-7.open {
+    background: url(cases/wh.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-7:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-7 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-7 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-7 img.bayk.play {
+    width: 162px;
     height: 168px;
     position: relative;
     bottom: -282px;
     left: 80px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-7 img.enter-pic {
-  width: 112px;
-  height: auto;
-  position: absolute;
-  margin: 228px 0 0 110px;
-  transition: .5s all;
-  opacity: 1;
-}
-
-.case-item.item-7:hover img.enter-pic {
-  width: 112px;
-  height: auto;
-  margin: 130px 0 0 110px;
-}
-
-/* _______________ end card _______________ */
-
-/* _______________ card item-8 _______________ */
-
-.case-item.item-8 {
-  background: url(cases/ac.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-8:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-8.open {
-  background: url(cases/ac.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-8:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-8 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-8 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-8 img.bayk.play {
-  width: 162px;
+    }
+    
+    .case-item.item-7 img.enter-pic {
+    width: 112px;
+    height: auto;
+    position: absolute;
+    margin: 228px 0 0 110px;
+    transition: .5s all;
+    opacity: 1;
+    }
+    
+    .case-item.item-7:hover img.enter-pic {
+    width: 112px;
+    height: auto;
+    margin: 130px 0 0 110px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-8 _______________ */
+    
+    .case-item.item-8 {
+    background: url(cases/ac.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-8:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-8.open {
+    background: url(cases/ac.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-8:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-8 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-8 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-8 img.bayk.play {
+    width: 162px;
     height: 168px;
     position: relative;
     bottom: -282px;
     left: 80px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-8 img.enter-pic {
-  width: 65px;
-  height: auto;
-  position: absolute;
-  margin: 220px 0 0 131px;
-  transition: .5s all;
-  opacity: 1;
-}
-
-.case-item.item-8:hover img.enter-pic {
-  width: 65px;
-  height: auto;
-  margin: 130px 0 0 131px;
-}
-
-/* _______________ end card _______________ */
-
-/* _______________ card item-9 _______________ */
-
-.case-item.item-9 {
-  background: url(cases/cod.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-9:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-9.open {
-  background: url(cases/cod1.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-9:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-9 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-9 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-9 img.bayk.play {
-  width: 162px;
+    }
+    
+    .case-item.item-8 img.enter-pic {
+    width: 65px;
+    height: auto;
+    position: absolute;
+    margin: 220px 0 0 131px;
+    transition: .5s all;
+    opacity: 1;
+    }
+    
+    .case-item.item-8:hover img.enter-pic {
+    width: 65px;
+    height: auto;
+    margin: 130px 0 0 131px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-9 _______________ */
+    
+    .case-item.item-9 {
+    background: url(cases/cod.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-9:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-9.open {
+    background: url(cases/cod1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-9:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-9 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-9 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-9 img.bayk.play {
+    width: 162px;
     height: 168px;
     position: relative;
     bottom: -282px;
     left: 80px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-9 img.enter-pic {
-  width: 65px;
-  height: auto;
-  position: absolute;
-  margin: 220px 0 0 131px;
-  transition: .5s all;
-  opacity: 1;
-}
-
-.case-item.item-9:hover img.enter-pic {
-  width: 65px;
-  height: auto;
-  margin: 130px 0 0 131px;
-}
-
-/* _______________ end card _______________ */
-
-/* _______________ card item-10 _______________ */
-
-.case-item.item-10 {
-  background: url(cases/reestr.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-10:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-10.open {
-  background: url(cases/reestr.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-10:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-10 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-10 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-10 img.bayk.play {
-  width: 122px;
+    }
+    
+    .case-item.item-9 img.enter-pic {
+    width: 65px;
+    height: auto;
+    position: absolute;
+    margin: 220px 0 0 131px;
+    transition: .5s all;
+    opacity: 1;
+    }
+    
+    .case-item.item-9:hover img.enter-pic {
+    width: 65px;
+    height: auto;
+    margin: 130px 0 0 131px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-10 _______________ */
+    
+    .case-item.item-10 {
+    background: url(cases/reestr.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-10:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-10.open {
+    background: url(cases/reestr.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-10:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-10 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-10 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-10 img.bayk.play {
+    width: 122px;
     height: 168px;
     position: relative;
     bottom: -282px;
     left: 103px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-10 img.enter-pic {
-  width: 65px;
-  height: auto;
-  position: absolute;
-  margin: 220px 0 0 131px;
-  transition: .5s all;
-  opacity: 1;
-}
-
-.case-item.item-10:hover img.enter-pic {
-  width: 65px;
-  height: auto;
-  margin: 130px 0 0 131px;
-}
-
-/* _______________ end card _______________ */
-
-/* _______________ card item-11 _______________ */
-
-.case-item.item-11 {
-  background: url(cases/p_biz.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-11:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-11.open {
-  background: url(cases/p_biz1.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-11:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-11 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-11 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-11 img.bayk.play {
-  width: 152px;
-  height: 168px;
-  position: relative;
-  bottom: -282px;
-  left: 84px;
+    }
+    
+    .case-item.item-10 img.enter-pic {
+    width: 65px;
+    height: auto;
+    position: absolute;
+    margin: 220px 0 0 131px;
+    transition: .5s all;
+    opacity: 1;
+    }
+    
+    .case-item.item-10:hover img.enter-pic {
+    width: 65px;
+    height: auto;
+    margin: 130px 0 0 131px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-11 _______________ */
+    
+    .case-item.item-11 {
+    background: url(cases/p_biz.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-11:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-11.open {
+    background: url(cases/p_biz1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-11:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-11 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-11 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-11 img.bayk.play {
+    width: 152px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 84px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-11 img.enter-pic {
-  width: 65px;
-  height: auto;
-  position: absolute;
-  margin: 220px 0 0 131px;
-  transition: .5s all;
-  opacity: 1;
-}
-
-.case-item.item-11:hover img.enter-pic {
-  width: 65px;
-  height: auto;
-  margin: 130px 0 0 131px;
-}
-
-/* _______________ end card _______________ */
-
-/* _______________ card item-12 _______________ */
-
-.case-item.item-12 {
-  background: url(cases/gkh.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  height: 500px;
-  border-radius: 8px;
-  
-}
-
-.case-item.item-12:hover {
-  background-attachment: fixed;
-  background-size: cover;
-  transform: scale(.95);
-  border-radius: 8px;
-}
-
-.case-item.item-12.open {
-  background: url(cases/gkh.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  transition: .5s all;
-  transform: scale(1);
-  border-radius: 8px;
-}
-
-.item-12:hover .title  {
-  display: block;
-  font-size: 14px;
-  position: absolute;
-  margin: auto;
-  top: 45%;
-  text-align: center;
-  opacity: 1;
-}
-
-.item-12 .title.delete {
-  display: block;
-  top: 30%!important;
-  opacity: 1;
-}
-
-.case-item.item-12 img.bayk {
-  width: 162px;
-  height: 168px;
-  position: relative;
-  bottom: -242px;
-  left: 80px;
-  transform: scale(0);
-  cursor: none; 
-  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-}
-
-.case-item.item-12 img.bayk.play {
-  width: 112px;
-  height: 168px;
-  position: relative;
-  bottom: -282px;
-  left: 104px;
+    }
+    
+    .case-item.item-11 img.enter-pic {
+    width: 65px;
+    height: auto;
+    position: absolute;
+    margin: 220px 0 0 131px;
+    transition: .5s all;
+    opacity: 1;
+    }
+    
+    .case-item.item-11:hover img.enter-pic {
+    width: 65px;
+    height: auto;
+    margin: 130px 0 0 131px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    /* _______________ card item-12 _______________ */
+    
+    .case-item.item-12 {
+    background: url(cases/gkh.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    height: 500px;
+    border-radius: 8px;
+    
+    }
+    
+    .case-item.item-12:hover {
+    background-attachment: fixed;
+    background-size: cover;
+    transform: scale(.95);
+    border-radius: 8px;
+    }
+    
+    .case-item.item-12.open {
+    background: url(cases/gkh.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: .5s all;
+    transform: scale(1);
+    border-radius: 8px;
+    }
+    
+    .item-12:hover .title  {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    }
+    
+    .item-12 .title.delete {
+    display: block;
+    top: 30%!important;
+    opacity: 1;
+    }
+    
+    .case-item.item-12 img.bayk {
+    width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -242px;
+    left: 80px;
+    transform: scale(0);
+    cursor: none; 
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-12 img.bayk.play {
+    width: 112px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 104px;
     transform: scale(0.6);
     cursor: none; 
-}
-
-.case-item.item-12 img.enter-pic {
-  width: 65px;
-  height: auto;
-  position: absolute;
-  margin: 220px 0 0 131px;
-  transition: .5s all;
-  opacity: 1;
-}
-
-.case-item.item-12:hover img.enter-pic {
-  width: 65px;
-  height: auto;
-  margin: 130px 0 0 131px;
-}
-
-/* _______________ end card _______________ */
-
-@keyframes pulse-black {
-	0% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(132, 184, 255, 1);
-	}
-	
-	70% {
-		transform: scale(1.1);
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-	}
-	
-	100% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
-
+    }
+    
+    .case-item.item-12 img.enter-pic {
+    width: 65px;
+    height: auto;
+    position: absolute;
+    margin: 220px 0 0 131px;
+    transition: .5s all;
+    opacity: 1;
+    }
+    
+    .case-item.item-12:hover img.enter-pic {
+    width: 65px;
+    height: auto;
+    margin: 130px 0 0 131px;
+    }
+    
+    /* _______________ end card _______________ */
+    
+    @keyframes pulse-black {
+    0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(132, 184, 255, 1);
+    }
+    
+    70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+    
+    100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    
+    
