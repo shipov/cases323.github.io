@@ -64,30 +64,94 @@ $(document).on('click', '#moveDown', function(){
 
     
 $(".case-item").click(function(){
-	$(".case-item").addClass("open");
+	$(".case-item").toggleClass("open");
 	$(this).toggleClass("open");
   $("img.bayk, .case-item.item-1 a.down, .case-item.item-1 a.UP1, .case-item.item-1 a.arrow").toggleClass("play");
   $(".title, .enter-pic").toggleClass("delete");
-
 });
 
 
 $(".case-item").click(function(){
-	$(".case-item.item-2").addClass("open");
+	$(".case-item.item-2").toggleClass("open");
 	$(this).toggleClass("open");
   $(".case-item.item-2.bayk, .case-item.item-2 a.down, .case-item.item-2 a.UP1, .case-item.item-2 a.arrow").toggleClass("play");
   $(".case-item.item-2.title, .case-item.item-2.enter-pic").toggleClass("delete");
-
 });
 
 
-
-
-
-
-document.getElementsByClassName('').addEventListener('click', function() {
-  this.classList.add('open');
+$(".case-item").click(function(){
+	$(".case-item.item-3").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".maks, .case-item.item-3 a.down, .case-item.item-3 a.UP1, .case-item.item-3 a.arrow_w").toggleClass("play");
+  $(".case-item.item-3.title, .case-item.item-3.enter-pic").toggleClass("delete");
 });
+
+$(".case-item").click(function(){
+	$(".case-item.item-4").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-4.bayk, .case-item.item-4 a.down, .case-item.item-4 a.UP1, .case-item.item-4 a.arrow").toggleClass("play");
+  $(".case-item.item-4.title, .case-item.item-4.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+	$(".case-item.item-5").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-5.bayk, .case-item.item-5 a.down, .case-item.item-5 a.UP1, .case-item.item-5 a.arrow_w").toggleClass("play");
+  $(".case-item.item-5.title, .case-item.item-5.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+	$(".case-item.item-6").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-6.bayk, .case-item.item-6 a.down, .case-item.item-6 a.UP1, .case-item.item-6 a.arrow_w").toggleClass("play");
+  $(".case-item.item-6.title, .case-item.item-6.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+	$(".case-item.item-7").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-7.bayk, .case-item.item-7 a.down, .case-item.item-7 a.UP1, .case-item.item-7 a.arrow_w").toggleClass("play");
+  $(".case-item.item-7.title, .case-item.item-7.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+	$(".case-item.item-8").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-8.bayk, .case-item.item-8 a.down, .case-item.item-8 a.UP1, .case-item.item-8 a.arrow_w").toggleClass("play");
+  $(".case-item.item-8.title, .case-item.item-8.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+	$(".case-item.item-9").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-9.bayk, .case-item.item-9 a.down, .case-item.item-9 a.UP1, .case-item.item-9 a.arrow_w").toggleClass("play");
+  $(".case-item.item-9.title, .case-item.item-9.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+	$(".case-item.item-10").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-10.bayk, .case-item.item-10 a.down, .case-item.item-10 a.UP1, .case-item.item-10 a.arrow_w").toggleClass("play");
+  $(".case-item.item-10.title, .case-item.item-10.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+	$(".case-item.item-11").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-11.bayk, .case-item.item-11 a.down, .case-item.item-11 a.UP1, .case-item.item-11 a.arrow_w").toggleClass("play");
+  $(".case-item.item-11.title, .case-item.item-11.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+	$(".case-item.item-12").toggleClass("open");
+	$(this).toggleClass("open");
+  $(".case-item.item-12.bayk, .case-item.item-12 a.down, .case-item.item-12 a.UP1, .case-item.item-12 a.arrow_w").toggleClass("play");
+  $(".case-item.item-12.title, .case-item.item-12.enter-pic").toggleClass("delete");
+});
+
+// document.getElementsByClassName('').addEventListener('click', function() {
+//   this.classList.add('open');
+// });
 
 document.getElementsByClassName('.open').addEventListener('click', function() {
   this.classList.remove('open');

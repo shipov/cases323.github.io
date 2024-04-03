@@ -1,6 +1,6 @@
 :root {
     --primary_color: #000;
-    --font: 'monospace', sans-serif;
+    --font: 'MTSWide-Medium';
 }
 
 @font-face {
@@ -459,7 +459,12 @@ canvas {
     background: no-repeat center center url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 2.5C0 1.83696 0.263392 1.20107 0.732233 0.732233C1.20107 0.263392 1.83696 0 2.5 0H7.5C8.16304 0 8.79893 0.263392 9.26777 0.732233C9.73661 1.20107 10 1.83696 10 2.5C10 2.63261 9.94732 2.75979 9.85355 2.85355C9.75979 2.94732 9.63261 3 9.5 3C9.36739 3 9.24021 2.94732 9.14645 2.85355C9.05268 2.75979 9 2.63261 9 2.5C9 2.10218 8.84196 1.72064 8.56066 1.43934C8.27936 1.15804 7.89782 1 7.5 1H2.5C2.10218 1 1.72064 1.15804 1.43934 1.43934C1.15804 1.72064 1 2.10218 1 2.5V7.5C1 7.89782 1.15804 8.27936 1.43934 8.56066C1.72064 8.84196 2.10218 9 2.5 9H7.014C7.07583 8.45058 7.33778 7.94316 7.74988 7.57456C8.16198 7.20597 8.69537 7.00201 9.24826 7.00161C9.80115 7.00121 10.3348 7.20439 10.7475 7.57239C11.1601 7.94038 11.4228 8.44743 11.4854 8.99676C11.548 9.54609 11.4062 10.0992 11.087 10.5507C10.7678 11.0021 10.2935 11.3202 9.75472 11.4442C9.21592 11.5683 8.65032 11.4896 8.16583 11.2232C7.68135 10.9569 7.3119 10.5214 7.128 10H2.5C1.83696 10 1.20107 9.73661 0.732233 9.26777C0.263392 8.79893 0 8.16304 0 7.5V2.5ZM8 9.25C8 9.58152 8.1317 9.89946 8.36612 10.1339C8.60054 10.3683 8.91848 10.5 9.25 10.5C9.58152 10.5 9.89946 10.3683 10.1339 10.1339C10.3683 9.89946 10.5 9.58152 10.5 9.25C10.5 8.91848 10.3683 8.60054 10.1339 8.36612C9.89946 8.1317 9.58152 8 9.25 8C8.91848 8 8.60054 8.1317 8.36612 8.36612C8.1317 8.60054 8 8.91848 8 9.25ZM4.5 11C4.36739 11 4.24021 11.0527 4.14645 11.1464C4.05268 11.2402 4 11.3674 4 11.5C4 12.163 4.26339 12.7989 4.73223 13.2678C5.20107 13.7366 5.83696 14 6.5 14H11.5C12.163 14 12.7989 13.7366 13.2678 13.2678C13.7366 12.7989 14 12.163 14 11.5V6.5C14 5.83696 13.7366 5.20107 13.2678 4.73223C12.7989 4.26339 12.163 4 11.5 4H6.872C6.6881 3.47859 6.31865 3.04315 5.83417 2.77676C5.34968 2.51038 4.78408 2.43171 4.24528 2.55576C3.70649 2.67981 3.23223 2.9979 2.91302 3.44933C2.5938 3.90075 2.45197 4.45391 2.51459 5.00324C2.57722 5.55257 2.83991 6.05962 3.25254 6.42761C3.66517 6.79561 4.19885 6.99879 4.75174 6.99839C5.30463 6.99799 5.83802 6.79403 6.25012 6.42544C6.66222 6.05684 6.92417 5.54942 6.986 5H11.5C11.8978 5 12.2794 5.15804 12.5607 5.43934C12.842 5.72064 13 6.10218 13 6.5V11.5C13 11.8978 12.842 12.2794 12.5607 12.5607C12.2794 12.842 11.8978 13 11.5 13H6.5C6.10218 13 5.72064 12.842 5.43934 12.5607C5.15804 12.2794 5 11.8978 5 11.5C5 11.3674 4.94732 11.2402 4.85355 11.1464C4.75979 11.0527 4.63261 11 4.5 11ZM4.75 3.5C5.08152 3.5 5.39946 3.6317 5.63388 3.86612C5.8683 4.10054 6 4.41848 6 4.75C6 5.08152 5.8683 5.39946 5.63388 5.63388C5.39946 5.8683 5.08152 6 4.75 6C4.41848 6 4.10054 5.8683 3.86612 5.63388C3.6317 5.39946 3.5 5.08152 3.5 4.75C3.5 4.41848 3.6317 4.10054 3.86612 3.86612C4.10054 3.6317 4.41848 3.5 4.75 3.5V3.5Z' fill='%231A2030'/%3E%3C/svg%3E%0A");
     background-size: 40%;
 }
-
+#moveDown {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 p span {
   position: absolute;
   bottom: 50px;
@@ -664,9 +669,6 @@ p span:nth-of-type(3) {
     }
     
 
-    
-
-
 .case-container {
     width: 1280px;
     height: 0;
@@ -742,7 +744,7 @@ img.enter-pic {
   width: 132px;
   height: auto;
   position: absolute;
-  margin: 200px 0 0 90px;
+  margin: 232px 0 0 90px;
     transition: .5s all;
     opacity: 1;
 }
@@ -804,21 +806,24 @@ img.bayk.play {
 
 .title p {
   font-size: 14px;
-  font-family: monospace;
+  font-family: 'MTSWide-Regular';
   padding: 12px 52px 12px 52px;
   text-transform: math-auto;
+  opacity: .6;
 }
 
 a.down {
-  font-family: monospace;
+  font-family: 'MTSWide-Regular';
+  text-transform: none;
+  font-size: 10px;
   display: block;
   margin: 30px;
   color: black;
-  font-weight: bold;
   position: absolute;
   top: 0px;
   transition: cubic-bezier(0.19, 1, 0.22, 1) .8s;
   transform: scale(0);
+  opacity: .7;
 }
 
 a.down.play {
@@ -832,14 +837,16 @@ a.UP1.play {
 }
 
 a.UP1 {
-    font-family: monospace;
+  font-family: 'MTSWide-Regular';
+  text-transform: none;
+  font-size: 10px;
     display: block;
     margin: -143px 0 0 260px;
     color: #000;
-    font-weight: bold;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) .8s;
     right: 0;
     transform: scale(0);
+    opacity: .7;
 }
 
 /* _______________ arrow _______________ */
@@ -852,14 +859,14 @@ a.UP1 {
   display: block;
   transition: .5s all;
   transform: scale(0);
-  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' fill='white' fill-opacity='0.2' stroke='black' style='fill:white;fill-opacity:0.2;stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4437' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4437' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
+  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438L27.4436 19.131Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438' stroke='black' style='stroke:black;stroke-opacity:1;'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4438' stroke='black' style='stroke:black;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
 }
+
 .arrow.play {
   display: block;
   transform: scale(1);
   transition: .5s all;
   animation: pulse-black 2s infinite;
-
 }
 
 .arrow.play:hover {
@@ -875,7 +882,38 @@ a.UP1 {
 
   /* _______________ end arrow _______________ */
 
+/* _______________ arrow white _______________ */
 
+.arrow_w {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  margin: 380px 0 0 240px;
+  display: block;
+  transition: .5s all;
+  transform: scale(0);
+  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438L27.4436 19.131Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4438' stroke='white' style='stroke:white;stroke-opacity:1;'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4438' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
+}
+
+.arrow_w.play {
+  display: block;
+  transform: scale(1);
+  transition: .5s all;
+  animation: pulse-black 2s infinite;
+}
+
+.arrow_w.play:hover {
+  width: 46px;
+  height: 46px;
+  margin: 380px 0 0 240px;
+  display: block;
+  transition: .5s all;
+  transform: scale(1) rotate(45deg)!important;
+  background: no-repeat center center url("data:image/svg+xml,%3Csvg width='47' height='47' viewBox='0 0 47 47' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.2874 45.7874C35.7138 45.7874 45.7874 35.7138 45.7874 23.2874C45.7874 10.8609 35.7138 0.787354 23.2874 0.787354C10.8609 0.787354 0.787354 10.8609 0.787354 23.2874C0.787354 35.7138 10.8609 45.7874 23.2874 45.7874Z' fill='black' stroke='white' stroke-opacity='0.2' style='fill:black;fill-opacity:1;stroke:white;stroke-opacity:0.2;' stroke-width='0.786869'/%3E%3Cpath d='M27.4436 19.131L19.1309 27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3Cpath d='M19.1309 19.131H27.4436V27.4437' stroke='white' style='stroke:white;stroke-opacity:1;' stroke-width='0.786869'/%3E%3C/svg%3E%0A");
+}
+
+
+  /* _______________ end arrow white _______________ */
 
   /* _______________ 3 slide _______________ */
 
@@ -963,6 +1001,936 @@ a.UP1 {
   left: 80px;
   transform: scale(1.1);
   cursor: none; 
+}
+
+.case-item.item-2 img.enter-pic {
+  width: 132px;
+  height: auto;
+  position: absolute;
+  margin: 212px 0 0 90px;
+  transition: .5s all;
+}
+
+.case-item.item-2:hover img.enter-pic {
+  width: 132px;
+  height: auto;
+  margin: 130px 0 0 90px;
+}
+
+/* _______________ end card _______________ */
+
+ /* _______________ card item-3 _______________ */
+
+ .case-item.item-3 {
+  background: url(cases/gos1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-3:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-3.open {
+  background: url(cases/gos2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-3:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-3 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.maks {
+  width: 162px;
+  height: 173px;
+  position: relative;
+  bottom: -602px;
+  left: 30px;
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .4s;
+  display: block;
+  background: url(cases/maks1.svg) no-repeat center center;
+}
+
+.maks.play {
+  width: 162px;
+  height: 173px;
+  position: relative;
+  bottom: -292px;
+  left: 30px;
+  display: block;
+  background: url(cases/maks1.svg) no-repeat center center;
+}
+
+.maks.play:hover {
+  width: 162px;
+  height: 173px;
+  position: relative;
+  bottom: -290px;
+  left: 29px;
+  display: block;
+  background: url(cases/maks2.svg) no-repeat center center;
+}
+
+.case-item.item-3 img.enter-pic {
+    width: 152px;
+    height: auto;
+    position: absolute;
+    margin: 205px 0 0 82px;
+    transition: .5s all;
+    opacity: 1;
+}
+
+.case-item.item-3:hover img.enter-pic {
+  width: 152px;
+  height: auto;
+  margin: 145px 0 0 82px;
+}
+.white {
+  color: white!important;
+}
+/* _______________ end card _______________ */
+
+ /* _______________ card item-4 _______________ */
+
+ .case-item.item-4 {
+  background: url(cases/bon.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-4:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-4.open {
+  background: url(cases/bon.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-4:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-4 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-4 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-4 img.bayk.play {
+  width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 80px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-4 img.enter-pic {
+    width: 62px;
+    height: auto;
+    position: absolute;
+    margin: 220px 0 0 130px;
+    transition: .5s all;
+    opacity: 1;
+}
+
+.case-item.item-4:hover img.enter-pic {
+  width: 62px;
+  height: auto;
+  margin: 130px 0 0 130px;
+}
+
+/* _______________ end card _______________ */
+
+/* _______________ card item-4 _______________ */
+
+ .case-item.item-4 {
+  background: url(cases/bon.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-4:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-4.open {
+  background: url(cases/bon.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-4:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-4 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-4 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-4 img.bayk.play {
+  width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 80px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-4 img.enter-pic {
+    width: 62px;
+    height: auto;
+    position: absolute;
+    margin: 220px 0 0 130px;
+    transition: .5s all;
+    opacity: 1;
+}
+
+.case-item.item-4:hover img.enter-pic {
+  width: 62px;
+  height: auto;
+  margin: 130px 0 0 130px;
+}
+
+/* _______________ end card _______________ */
+
+/* _______________ card item-5 _______________ */
+
+.case-item.item-5 {
+  background: url(cases/dbr.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-5:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-5.open {
+  background: url(cases/dbr1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-5:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-5 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-5 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-5 img.bayk.play {
+  width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 80px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-5 img.enter-pic {
+  width: 72px;
+  height: auto;
+  margin: 220px 0 0 127px;
+    position: absolute;
+    transition: .5s all;
+    opacity: 1;
+}
+
+.case-item.item-5:hover img.enter-pic {
+  width: 72px;
+  height: auto;
+  margin: 130px 0 0 127px;
+}
+
+/* _______________ end card _______________ */
+
+/* _______________ card item-6 _______________ */
+
+.case-item.item-6 {
+  background: url(cases/mo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-6:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-6.open {
+  background: url(cases/mo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-6:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-6 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-6 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-6 img.bayk.play {
+  width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 80px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-6 img.enter-pic {
+  width: 112px;
+  height: auto;
+  position: absolute;
+  margin: 220px 0 0 110px;
+  transition: .5s all;
+  opacity: 1;
+}
+
+.case-item.item-6:hover img.enter-pic {
+  width: 112px;
+  height: auto;
+  margin: 130px 0 0 110px;
+}
+
+/* _______________ end card _______________ */
+
+
+/* _______________ card item-7 _______________ */
+
+.case-item.item-7 {
+  background: url(cases/wh.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-7:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-7.open {
+  background: url(cases/wh.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-7:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-7 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-7 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-7 img.bayk.play {
+  width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 80px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-7 img.enter-pic {
+  width: 112px;
+  height: auto;
+  position: absolute;
+  margin: 228px 0 0 110px;
+  transition: .5s all;
+  opacity: 1;
+}
+
+.case-item.item-7:hover img.enter-pic {
+  width: 112px;
+  height: auto;
+  margin: 130px 0 0 110px;
+}
+
+/* _______________ end card _______________ */
+
+/* _______________ card item-8 _______________ */
+
+.case-item.item-8 {
+  background: url(cases/ac.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-8:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-8.open {
+  background: url(cases/ac.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-8:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-8 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-8 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-8 img.bayk.play {
+  width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 80px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-8 img.enter-pic {
+  width: 65px;
+  height: auto;
+  position: absolute;
+  margin: 220px 0 0 131px;
+  transition: .5s all;
+  opacity: 1;
+}
+
+.case-item.item-8:hover img.enter-pic {
+  width: 65px;
+  height: auto;
+  margin: 130px 0 0 131px;
+}
+
+/* _______________ end card _______________ */
+
+/* _______________ card item-9 _______________ */
+
+.case-item.item-9 {
+  background: url(cases/cod.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-9:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-9.open {
+  background: url(cases/cod1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-9:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-9 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-9 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-9 img.bayk.play {
+  width: 162px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 80px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-9 img.enter-pic {
+  width: 65px;
+  height: auto;
+  position: absolute;
+  margin: 220px 0 0 131px;
+  transition: .5s all;
+  opacity: 1;
+}
+
+.case-item.item-9:hover img.enter-pic {
+  width: 65px;
+  height: auto;
+  margin: 130px 0 0 131px;
+}
+
+/* _______________ end card _______________ */
+
+/* _______________ card item-10 _______________ */
+
+.case-item.item-10 {
+  background: url(cases/reestr.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-10:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-10.open {
+  background: url(cases/reestr.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-10:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-10 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-10 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-10 img.bayk.play {
+  width: 122px;
+    height: 168px;
+    position: relative;
+    bottom: -282px;
+    left: 103px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-10 img.enter-pic {
+  width: 65px;
+  height: auto;
+  position: absolute;
+  margin: 220px 0 0 131px;
+  transition: .5s all;
+  opacity: 1;
+}
+
+.case-item.item-10:hover img.enter-pic {
+  width: 65px;
+  height: auto;
+  margin: 130px 0 0 131px;
+}
+
+/* _______________ end card _______________ */
+
+/* _______________ card item-11 _______________ */
+
+.case-item.item-11 {
+  background: url(cases/p_biz.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-11:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-11.open {
+  background: url(cases/p_biz1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-11:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-11 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-11 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-11 img.bayk.play {
+  width: 152px;
+  height: 168px;
+  position: relative;
+  bottom: -282px;
+  left: 84px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-11 img.enter-pic {
+  width: 65px;
+  height: auto;
+  position: absolute;
+  margin: 220px 0 0 131px;
+  transition: .5s all;
+  opacity: 1;
+}
+
+.case-item.item-11:hover img.enter-pic {
+  width: 65px;
+  height: auto;
+  margin: 130px 0 0 131px;
+}
+
+/* _______________ end card _______________ */
+
+/* _______________ card item-12 _______________ */
+
+.case-item.item-12 {
+  background: url(cases/gkh.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  height: 500px;
+  border-radius: 8px;
+  
+}
+
+.case-item.item-12:hover {
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(.95);
+  border-radius: 8px;
+}
+
+.case-item.item-12.open {
+  background: url(cases/gkh.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  transition: .5s all;
+  transform: scale(1);
+  border-radius: 8px;
+}
+
+.item-12:hover .title  {
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  text-align: center;
+  opacity: 1;
+}
+
+.item-12 .title.delete {
+  display: block;
+  top: 30%!important;
+  opacity: 1;
+}
+
+.case-item.item-12 img.bayk {
+  width: 162px;
+  height: 168px;
+  position: relative;
+  bottom: -242px;
+  left: 80px;
+  transform: scale(0);
+  cursor: none; 
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.case-item.item-12 img.bayk.play {
+  width: 112px;
+  height: 168px;
+  position: relative;
+  bottom: -282px;
+  left: 104px;
+    transform: scale(0.6);
+    cursor: none; 
+}
+
+.case-item.item-12 img.enter-pic {
+  width: 65px;
+  height: auto;
+  position: absolute;
+  margin: 220px 0 0 131px;
+  transition: .5s all;
+  opacity: 1;
+}
+
+.case-item.item-12:hover img.enter-pic {
+  width: 65px;
+  height: auto;
+  margin: 130px 0 0 131px;
 }
 
 /* _______________ end card _______________ */
