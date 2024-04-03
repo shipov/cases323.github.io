@@ -2102,11 +2102,11 @@
         }
         
         .case-item.item-15 img.bayk.play {
-        width: 112px;
-        height: 168px;
-        position: relative;
-        bottom: -282px;
-        left: 104px;
+          width: auto;
+          height: 168px;
+          position: relative;
+          bottom: -282px;
+          left: 83px;
         transform: scale(0.6);
         cursor: none; 
         }
