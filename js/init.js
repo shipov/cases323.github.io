@@ -6,16 +6,16 @@ var myFullpage = new fullpage('#fullpage', {
       
       keyboardScrolling: true,
       navigation: true,
-      'navigationPosition': 'left',
+      navigationPosition: 'left',
       scrollingSpeed: 300,
       parallax: true,
-        scrollBar: true,
-        dragAndMove: 'horizontal',
-        parallaxOptions: {
-            type: 'reveal',
-            percentage: 100,
-            property: 'translate'
-        },
+      scrollBar: true,
+      dragAndMove: 'horizontal',
+      parallaxOptions: {
+      type: 'reveal',
+      percentage: 500,
+      property: 'translate'
+      },
         
       
 
