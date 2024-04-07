@@ -80,17 +80,23 @@ transform: translate3d(0,0,0);
 .fp-controlArrow.fp-prev {
 left: -61px;
 margin-top: -27px;
-width: 0;
-border-width: 24px;
-border-color: #ffffff88;
-border-radius: 100%;
-transform:  scale(0.8);
-transition: .2s all;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+cursor: pointer;
+color: var(--greyDark);
+transition: all 0.5s ease;
 z-index: 1;
 }
 
 .fp-controlArrow.fp-prev:hover {
-transform:  scale(1);
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+    color: var(--primary);
 }
 
 .fp-controlArrow.fp-prev::after {
@@ -98,24 +104,24 @@ content: "";
 position: absolute;
 width: 12px;
 height: 12px;
-margin: -6px 0 0 -6px;
 background: no-repeat center center url("data:image/svg+xml,%3Csvg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.96045 9.19682L2.37466 7.78261L10.8599 16.2679L9.44573 17.6821L0.96045 9.19682Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3Cpath d='M2.37466 10.611L0.96045 9.19682L9.44573 0.711542L10.8599 2.12576L2.37466 10.611Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3C/svg%3E%0A");
 }
 
 .fp-controlArrow.fp-next {
 right: -83px;
 margin-top: -27px;
-width: 0;
-border-width: 24px;
-border-color: #ffffff88;
-border-radius: 100%;
-transform:  scale(0.8);
-transition: .2s all;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+cursor: pointer;
+color: var(--greyDark);
+transition: all 0.5s ease;
 z-index: 1;
-}
-
-.fp-controlArrow.fp-next:hover {
-transform:  scale(1);
 }
 
 .fp-controlArrow.fp-next::after {
@@ -123,9 +129,13 @@ content: "";
 position: absolute;
 width: 12px;
 height: 12px;
-margin: -6px 0 0 -6px;
 transform: rotate(180deg);
 background: no-repeat center center url("data:image/svg+xml,%3Csvg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.96045 9.19682L2.37466 7.78261L10.8599 16.2679L9.44573 17.6821L0.96045 9.19682Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3Cpath d='M2.37466 10.611L0.96045 9.19682L9.44573 0.711542L10.8599 2.12576L2.37466 10.611Z' fill='black' style='fill:black;fill-opacity:1;'/%3E%3C/svg%3E%0A");
+}
+
+.fp-controlArrow.fp-next:hover {
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+    color: var(--primary);
 }
 
 .fp-scrollable {
