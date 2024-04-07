@@ -1,4 +1,3 @@
-
 var myFullpage = new fullpage('#fullpage', {
 
       sectionsColor: ['#f4f7fb', '#f4f7fb', '#7BAABE'],
@@ -14,8 +13,6 @@ var myFullpage = new fullpage('#fullpage', {
         dragAndMove: 'horizontal',
         parallaxOptions: {
             type: 'reveal',
-        
-
             percentage: 100,
             property: 'translate'
         },
@@ -62,12 +59,12 @@ $(document).on('click', '#moveDown', function(){
     });
 
     
+  
     
 
-
 $(".case-item").click(function(){
-	$(".case-item").toggleClass("open");
-	$(this).toggleClass("open");
+	// $(".case-item").toggleClass("open");
+	// $(this).toggleClass("open");
   $("img.bayk, .case-item.item-1 a.down, .case-item.item-1 a.UP1, .case-item.item-1 a.arrow").toggleClass("play");
   $(".title, .enter-pic").toggleClass("delete");
 });
@@ -178,35 +175,23 @@ $("a.buttons:nth-last-child(1)").click(function () {
   $('a.buttons').toggleClass("hovered");
 });
 
-// document.getElementsByClassName('').addEventListener('click', function() {
-//   this.classList.add('open');
+// const items = document.querySelectorAll('.case-item')
+// items.forEach(item => item.addEventListener("click", event => {
+//   event.target.classList.toggle('open')
+// }));
+
+
+// document.getElementsByClassName('.open').addEventListener('click', function() {
+//   this.classList.remove('open');
 // });
 
-document.getElementsByClassName('.open').addEventListener('click', function() {
-  this.classList.remove('open');
-});
-
-var $cont = document.querySelector(".cont");
-var $elsArr = [].slice.call(document.querySelectorAll(".el"));
-var $closeBtnsArr = [].slice.call(document.querySelectorAll(".el__close-btn"));
-
-setTimeout(function () {
-  $cont.classList.remove("s--inactive");
-}, 200);
-
-$elsArr.forEach(function ($el) {
-  $el.addEventListener("click", function () {
-    if (this.classList.contains("s--active")) return;
-    $cont.classList.add("s--el-active");
-    this.classList.add("s--active");
-  });
-});
-
-$closeBtnsArr.forEach(function ($btn) {
-  $btn.addEventListener("click", function (e) {
-    e.stopPropagation();
-    $cont.classList.remove("s--el-active");
-    document.querySelector(".el.s--active").classList.remove("s--active");
-  });
-});
+// document.getElementsByClassName('.case-item').addEventListener('click', function() {
+      
+	//   $(".open").addClass("open");
+	//    $(this).removeClass("open");
+	// });
+	//   $(".case-item").click(function(){
+    //   $(".open").removeClass("open");
+    //   $(this).addClass("open");
+    // });
 
