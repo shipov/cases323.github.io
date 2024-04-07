@@ -8,7 +8,7 @@ var myFullpage = new fullpage('#fullpage', {
       keyboardScrolling: true,
       navigation: true,
       'navigationPosition': 'left',
-      scrollingSpeed: 500,
+      scrollingSpeed: 300,
       parallax: true,
         scrollBar: true,
         dragAndMove: 'horizontal',
