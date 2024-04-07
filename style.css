@@ -461,8 +461,8 @@
     font-family: 'Gilroy-Regular';
     }
     
-    .ul a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    .overlay a:hover, .overlay a:focus {
+    color: #62f300;
     }
     
     
