@@ -8,7 +8,7 @@ var myFullpage = new fullpage('#fullpage', {
       keyboardScrolling: true,
       navigation: true,
       'navigationPosition': 'left',
-      scrollingSpeed: 1000,
+      scrollingSpeed: 500,
       parallax: true,
         scrollBar: true,
         dragAndMove: 'horizontal',
@@ -30,7 +30,7 @@ var myFullpage = new fullpage('#fullpage', {
         if(origin.index == 1 && direction =='down'){
             setTimeout(function() {
         $('.share').addClass('active');
-            $('.vicon').addClass('active');
+            $('.buttons, .vicon').addClass('active');
             $('#fp-nav ul li a span, .btn').addClass('white');
     }, 500);
             
@@ -38,11 +38,10 @@ var myFullpage = new fullpage('#fullpage', {
 
         else if(direction == 'up'){
             $('.share').removeClass('active');
-            $('.vicon').removeClass('active');
+            $('.buttons, .vicon').removeClass('active');
             $('#fp-nav ul li a span, .btn').removeClass('white');
         }
     }
-
 
     });
 
@@ -63,6 +62,9 @@ $(document).on('click', '#moveDown', function(){
     });
 
     
+    
+
+
 $(".case-item").click(function(){
 	$(".case-item").toggleClass("open");
 	$(this).toggleClass("open");
@@ -168,6 +170,12 @@ $(".case-item").click(function(){
 	$(this).toggleClass("open");
   $(".case-item.item-15.bayk, .case-item.item-15 a.down, .case-item.item-15 a.UP1, .case-item.item-15 a.arrow_w").toggleClass("play");
   $(".case-item.item-15.title, .case-item.item-15.enter-pic").toggleClass("delete");
+});
+
+
+
+$("a.buttons:nth-last-child(1)").click(function () {
+  $('a.buttons').toggleClass("hovered");
 });
 
 // document.getElementsByClassName('').addEventListener('click', function() {
