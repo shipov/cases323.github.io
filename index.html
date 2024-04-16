@@ -34,15 +34,15 @@
 		
 		<div class="overlay-content">
 			<ul id="menu">
-				<li data-menuanchor ="firstPage"><a href ="#firstPage">bio</a></li>
-				<li data-menuanchor ="secondPage"><a href ="#secondPage">img</a></li>
-				<li data-menuanchor ="thirdPage"><a href ="#thirdPage">inf</a></li>
+				<li data-menuanchor ="firstPage"><a href ="#firstPage" onclick="playAudio('mp3/click2.mp3')">bio</a></li>
+				<li data-menuanchor ="secondPage"><a href ="#secondPage" onclick="playAudio('mp3/click2.mp3')">img</a></li>
+				<li data-menuanchor ="thirdPage"><a href ="#thirdPage" onclick="playAudio('mp3/click2.mp3')"></audio>inf</a></li>
 			</ul>
 		</div>
 	</div>
 
 	<header>
-		<div class="btn">
+		<div class="btn" onclick="playAudio('mp3/click.mp3')">
 			<div class="link icon"></div>
 		</div>
 	</header>
@@ -357,15 +357,15 @@
 			<div class="cursor-follower"></div>
 		</div>
 	</div>
-	<a href="https://t.me/mshiov32" target="_blank" class="vicon link"></a>
+	<a href="https://t.me/mshiov32" target="_blank" class="vicon link" onclick="playAudio('mp3/click2.mp3')"></a>
 	<footer>
 
 		<div class="obertka">
 			<nav class="float-action-button"> 
-				<a href="https://t.me/mshiov32" target="_blank" class="buttons" data-toggle="tooltip" data-placement="right" title=""  data-original-title="Telegram"></a>
-				<a href="https://wa.me/+79167217511" target="_blank" class="buttons" data-toggle="tooltip" data-placement="right" title="" data-original-title="Whatsup"></a>
-				<a href="mailto:mihail.korablev@gmail.com" class="buttons" data-toggle="tooltip" data-placement="right" title="" data-original-title="E-mail"></a>
-				<a class="buttons" data-toggle="tooltip" data-placement="left" title="" data-original-title="Выберите канал связи" style="visibility: visible; animation-name: bounceInUp, radial-pulse;"></a>
+				<a href="https://t.me/mshiov32" target="_blank" class="buttons" ></a>
+				<a href="https://wa.me/+79167217511" target="_blank" class="buttons" ></a>
+				<a href="mailto:mihail.korablev@gmail.com" class="buttons" ></a>
+				<a class="buttons" onclick="playAudio('mp3/click2.mp3')" style="visibility: visible; animation-name: bounceInUp, radial-pulse;"></a>
 			</nav>
 		</div>
 	</footer>
@@ -384,7 +384,17 @@
 			ScrollTrigger.init();
 		});
 	</script>
-
+	<script>
+		function playAudio(url) {
+  new Audio(url).play();
+}
+      // function play() {
+      //   var audio = document.getElementById("audio");
+      //   audio.play();
+      //   var audio = document.getElementById("audio2");
+      //   audio.play();
+      // }
+    </script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 	<script type="text/javascript" src="js/cursor.js"></script>
 	<script type="text/javascript" src="js/fullpage.js"></script>
