@@ -252,14 +252,14 @@
     
     #circle { 
     position: absolute; 
-    width: 365px; 
-    padding: 365px; 
+    width: 370px; 
+    padding: 370px; 
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    opacity: .5;
+    opacity: .7;
     
     }
     
