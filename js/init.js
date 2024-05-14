@@ -1,66 +1,66 @@
 var myFullpage = new fullpage('#fullpage', {
 
-      sectionsColor: ['#f4f7fb', '#f4f7fb', '#7BAABE'],
-      anchors: ['firstPage', 'secondPage', 'thirdPage'],
-      menu: '#menu',
-      
-      keyboardScrolling: true,
-      navigation: true,
-      navigationPosition: 'left',
-      scrollingSpeed: 300,
-      parallax: true,
-      scrollBar: true,
-      dragAndMove: 'horizontal',
-      parallaxOptions: {
+  sectionsColor: ['#f4f7fb', '#f4f7fb', '#7BAABE'],
+  anchors: ['firstPage', 'secondPage', 'thirdPage'],
+  menu: '#menu',
+
+  keyboardScrolling: true,
+  navigation: true,
+  navigationPosition: 'left',
+  scrollingSpeed: 300,
+  parallax: true,
+  scrollBar: true,
+  dragAndMove: 'horizontal',
+  parallaxOptions: {
       type: 'reveal',
       percentage: 500,
       property: 'translate'
-      },
-        
-      
+  },
 
-      
-    onLeave: function(origin, destination, direction){
-        var leavingSection = this;
+
+
+
+  onLeave: function(origin, destination, direction){
+    var leavingSection = this;
 
         //после покидания раздела 2
-        if(origin.index == 1 && direction =='down'){
-            setTimeout(function() {
-        $('.share').addClass('active');
+    if(origin.index == 1 && direction =='down'){
+        setTimeout(function() {
+            $('.share').addClass('active');
             $('.buttons, .vicon').addClass('active');
             $('#fp-nav ul li a span, .btn').addClass('white');
-    }, 500);
-            
-        }
+        }, 500);
 
-        else if(direction == 'up'){
-            $('.share').removeClass('active');
-            $('.buttons, .vicon').removeClass('active');
-            $('#fp-nav ul li a span, .btn').removeClass('white');
-        }
     }
 
-    });
+    else if(direction == 'up'){
+        $('.share').removeClass('active');
+        $('.buttons, .vicon').removeClass('active');
+        $('#fp-nav ul li a span, .btn').removeClass('white');
+    }
+}
+
+});
 
 $(document).on('click', '#moveDown', function(){
   fullpage_api.moveSectionDown();
 });
 
-   
-    $(".btn").click(function () {
-      $(this).toggleClass("open");
-  });
 
-    $(".btn, #menu li").click(function () {
-        $(".overlay").toggleClass("open");
-    });
-    $("#menu li").click(function () {
-        $(".btn").removeClass("open");
-    });
+$(".btn").click(function () {
+  $(this).toggleClass("open");
+});
 
-    
-  
-    
+$(".btn, #menu li").click(function () {
+    $(".overlay").toggleClass("open");
+});
+$("#menu li").click(function () {
+    $(".btn").removeClass("open");
+});
+
+
+
+
 
 $(".case-item").click(function(){
 	// $(".case-item").toggleClass("open");
@@ -177,7 +177,7 @@ $("a.buttons:nth-last-child(1)").click(function () {
 
 
 var canvas = document.getElementById('canvas'),
-    ctx = canvas.getContext('2d');
+ctx = canvas.getContext('2d');
 
 function resize() {
     canvas.width = window.innerWidth;
@@ -187,13 +187,13 @@ resize();
 window.onresize = resize;
 
 function noise(ctx) {
-    
+
     var w = ctx.canvas.width,
-        h = ctx.canvas.height,
-        idata = ctx.createImageData(w, h),
-        buffer32 = new Uint32Array(idata.data.buffer),
-        len = buffer32.length,
-        i = 0;
+    h = ctx.canvas.height,
+    idata = ctx.createImageData(w, h),
+    buffer32 = new Uint32Array(idata.data.buffer),
+    len = buffer32.length,
+    i = 0;
 
     for(; i < len;)
         buffer32[i++] = ((4000 * Math.random())|0) << 30;
@@ -214,6 +214,23 @@ var toggle = true;
     requestAnimationFrame(loop);
 })();
 
+
+
+
+var typed = new Typed('.typed', {
+  strings: ['ux/ui design','development', 'research'],
+  typeSpeed: 50,
+  backSpeed: 10,
+  startDelay: 1000,
+  backDelay: 500,
+  showCursor: true,
+  cursorChar: '|',
+  autoInsertCss: true,
+  shuffle: true,
+  smartBackspace: true,
+  loop: true
+});
+
 // const items = document.querySelectorAll('.case-item')
 // items.forEach(item => item.addEventListener("click", event => {
 //   event.target.classList.toggle('open')
@@ -225,7 +242,7 @@ var toggle = true;
 // });
 
 // document.getElementsByClassName('.case-item').addEventListener('click', function() {
-      
+
 	//   $(".open").addClass("open");
 	//    $(this).removeClass("open");
 	// });
