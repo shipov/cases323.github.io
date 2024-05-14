@@ -238,6 +238,10 @@ border-radius: 100%;
 background: white;
 }
 
+#fp-nav ul li a.active span.white {
+background: #62f300!important;
+}
+
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
 border-radius: 50%;

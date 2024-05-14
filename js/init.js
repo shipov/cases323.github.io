@@ -28,15 +28,15 @@ var myFullpage = new fullpage('#fullpage', {
         setTimeout(function() {
             $('.share').addClass('active');
             $('.buttons, .vicon').addClass('active');
-            $('#fp-nav ul li a span, .btn').addClass('white');
-        }, 500);
+            $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body').addClass('white');
+        }, 100);
 
     }
 
     else if(direction == 'up'){
         $('.share').removeClass('active');
         $('.buttons, .vicon').removeClass('active');
-        $('#fp-nav ul li a span, .btn').removeClass('white');
+        $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body').removeClass('white');
     }
 }
 
@@ -54,6 +54,7 @@ $(".btn").click(function () {
 $(".btn, #menu li").click(function () {
     $(".overlay").toggleClass("open");
 });
+
 $("#menu li").click(function () {
     $(".btn").removeClass("open");
 });
@@ -230,6 +231,23 @@ var typed = new Typed('.typed', {
   smartBackspace: true,
   loop: true
 });
+
+setTimeout(function(){
+$('body').addClass('selected');
+},3000)
+
+setTimeout(function(){
+$('.preloader').addClass('selected');
+},3000)
+
+setTimeout(function(){
+$('.preloader').addClass('none');
+},4000)
+
+// window.addEventListener('load', () => { /* Страница загружена, включая все ресурсы */
+//   const preloader = document.querySelector('.preloader') /* находим блок Preloader */
+//   preloader.classList.add('preloader_hidden') /* добавляем ему класс для скрытия */
+// })
 
 // const items = document.querySelectorAll('.case-item')
 // items.forEach(item => item.addEventListener("click", event => {
