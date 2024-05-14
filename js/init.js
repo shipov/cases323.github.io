@@ -28,7 +28,7 @@ var myFullpage = new fullpage('#fullpage', {
         setTimeout(function() {
             $('.share').addClass('active');
             $('.buttons, .vicon').addClass('active');
-            $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body').addClass('white');
+            $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .float-action-button_txt.white').addClass('white');
         }, 100);
 
     }
@@ -36,7 +36,7 @@ var myFullpage = new fullpage('#fullpage', {
     else if(direction == 'up'){
         $('.share').removeClass('active');
         $('.buttons, .vicon').removeClass('active');
-        $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body').removeClass('white');
+        $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .float-action-button_txt.white').removeClass('white');
     }
 }
 
@@ -177,6 +177,11 @@ $("a.buttons:nth-last-child(1)").click(function () {
 });
 
 
+$("a.buttons:nth-last-child(1)").click(function () {
+  $('.float-action-button_txt').toggleClass("hovered");
+});
+
+
 var canvas = document.getElementById('canvas'),
 ctx = canvas.getContext('2d');
 
@@ -234,15 +239,15 @@ var typed = new Typed('.typed', {
 
 setTimeout(function(){
 $('body').addClass('selected');
-},3000)
+},2500)
 
 setTimeout(function(){
 $('.preloader').addClass('selected');
-},3000)
+},2500)
 
 setTimeout(function(){
 $('.preloader').addClass('none');
-},4000)
+},3000)
 
 // window.addEventListener('load', () => { /* Страница загружена, включая все ресурсы */
 //   const preloader = document.querySelector('.preloader') /* находим блок Preloader */
