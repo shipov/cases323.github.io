@@ -28,7 +28,7 @@ var myFullpage = new fullpage('#fullpage', {
         setTimeout(function() {
             $('.share').addClass('active');
             $('.buttons, .vicon').addClass('active');
-            $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .float-action-button_txt.white').addClass('white');
+            $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .float-action-button_txt.hovered').addClass('white');
         }, 100);
 
     }
@@ -36,7 +36,7 @@ var myFullpage = new fullpage('#fullpage', {
     else if(direction == 'up'){
         $('.share').removeClass('active');
         $('.buttons, .vicon').removeClass('active');
-        $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .float-action-button_txt.white').removeClass('white');
+        $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .float-action-button_txt.hovered').removeClass('white');
     }
 }
 

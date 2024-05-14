@@ -569,11 +569,7 @@
     transition: .3s ease-in-out;
     background: url(img/hole.svg) no-repeat center center;
   }
-/*
-  .hole:hover {
-    opacity: 1;
-  }
-*/
+
   .hole.white {
     display: block;
     width: 100px;
@@ -721,7 +717,7 @@
     transition: all 0.5s ease-in-out;
   }
 
-  .float-action-button_txt.white {
+  .float-action-button_txt.hovered.white {
    color: #62f300;
   }
 
