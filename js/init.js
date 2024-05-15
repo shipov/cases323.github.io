@@ -28,7 +28,7 @@ var myFullpage = new fullpage('#fullpage', {
         setTimeout(function() {
             $('.share').addClass('active');
             $('.buttons, .vicon').addClass('active');
-            $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .float-action-button_txt.hovered').addClass('white');
+            $('.contact, #fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt').addClass('white');
         }, 100);
 
     }
@@ -36,7 +36,7 @@ var myFullpage = new fullpage('#fullpage', {
     else if(direction == 'up'){
         $('.share').removeClass('active');
         $('.buttons, .vicon').removeClass('active');
-        $('#fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .float-action-button_txt.hovered').removeClass('white');
+        $('.contact, #fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt').removeClass('white');
     }
 }
 
@@ -168,6 +168,13 @@ $(".case-item").click(function(){
 	$(this).toggleClass("open");
   $(".case-item.item-15.bayk, .case-item.item-15 a.down, .case-item.item-15 a.UP1, .case-item.item-15 a.arrow_w").toggleClass("play");
   $(".case-item.item-15.title, .case-item.item-15.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+    $(".case-item.item-16").toggleClass("open");
+    $(this).toggleClass("open");
+  $(".case-item.item-16.bayk, .case-item.item-16 a.down, .case-item.item-16 a.UP1, .case-item.item-16 a.arrow_w, .work").toggleClass("play");
+  $(".case-item.item-16.title, .case-item.item-16.enter-pic").toggleClass("delete");
 });
 
 
