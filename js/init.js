@@ -28,7 +28,7 @@ var myFullpage = new fullpage('#fullpage', {
         setTimeout(function() {
             $('.share').addClass('active');
             $('.buttons, .vicon').addClass('active');
-            $('.contact, #fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt').addClass('white');
+            $('.contact, #fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .oldweb').addClass('white');
         }, 100);
 
     }
@@ -36,7 +36,7 @@ var myFullpage = new fullpage('#fullpage', {
     else if(direction == 'up'){
         $('.share').removeClass('active');
         $('.buttons, .vicon').removeClass('active');
-        $('.contact, #fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt').removeClass('white');
+        $('.contact, #fp-nav ul li a.active span, #fp-nav ul li a span, .btn, .hole, body, .vicon_txt, .oldweb').removeClass('white');
     }
 }
 
