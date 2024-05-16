@@ -177,6 +177,20 @@ $(".case-item").click(function(){
   $(".case-item.item-16.title, .case-item.item-16.enter-pic").toggleClass("delete");
 });
 
+$(".case-item").click(function(){
+    $(".case-item.item-17").toggleClass("open");
+    $(this).toggleClass("open");
+  $(".case-item.item-17.bayk, .case-item.item-17 a.down, .case-item.item-17 a.UP1, .case-item.item-17 a.arrow_w, .work").toggleClass("play");
+  $(".case-item.item-17.title, .case-item.item-17.enter-pic").toggleClass("delete");
+});
+
+$(".case-item").click(function(){
+    $(".case-item.item-18").toggleClass("open");
+    $(this).toggleClass("open");
+  $(".case-item.item-18.bayk, .case-item.item-18 a.down, .case-item.item-18 a.UP1, .case-item.item-18 a.arrow_w, .case-item.item-18 .nda").toggleClass("play");
+  $(".case-item.item-18.title, .case-item.item-18.enter-pic").toggleClass("delete");
+});
+
 
 
 $("a.buttons:nth-last-child(1)").click(function () {

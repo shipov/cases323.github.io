@@ -2576,6 +2576,160 @@ a span:nth-of-type(3) {
     
     /* _______________ end card _______________ */
 
+    /* _______________ card item-17 _______________ */
+    
+    .case-item.item-17 {
+      background: url(cases/dgl.jpg) no-repeat center center;
+      transition: .5s all;
+      height: 500px;
+      border-radius: 8px;
+
+    }
+    
+    .case-item.item-17:hover {
+      background: url(cases/dgl.jpg) no-repeat center center;
+      transform: scale(.95);
+      border-radius: 8px;
+    }
+    
+    .case-item.item-17.open {
+      background: url(cases/dgl.jpg) no-repeat center center;
+      transition: .5s all;
+      transform: scale(1);
+      border-radius: 8px;
+    }
+    
+    .item-17:hover .title  {
+      display: block;
+      font-size: 14px;
+      position: absolute;
+      margin: auto;
+      top: 45%;
+      text-align: center;
+      opacity: 1;
+    }
+    
+    .item-17 .title.delete {
+      display: block;
+      top: 30%!important;
+      opacity: 1;
+    }
+    
+    .case-item.item-17 img.bayk {
+      width: 162px;
+      height: 168px;
+      position: relative;
+      bottom: -242px;
+      left: 80px;
+      transform: scale(0);
+      cursor: none; 
+      transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-17 img.bayk.play {
+      width: 200px;
+      height: 168px;
+      position: relative;
+      bottom: -262px;
+      left: 58px;
+      transform: scale(0.6);
+      cursor: none; 
+    }
+    
+    .case-item.item-17 img.enter-pic {
+      width: 132px;
+      height: auto;
+      position: absolute;
+      margin: 220px 0 0 95px;
+      transition: .5s all;
+      opacity: 1;
+    }
+    
+    .case-item.item-17:hover img.enter-pic {
+      width: 132px;
+      height: auto;
+      margin: 120px 0 0 95px;
+    }
+    
+    /* _______________ end card _______________ */
+
+    /* _______________ card item-18 _______________ */
+    
+    .case-item.item-18 {
+      background: url(cases/gis.jpg) no-repeat center center;
+      transition: .5s all;
+      height: 500px;
+      border-radius: 8px;
+
+    }
+    
+    .case-item.item-18:hover {
+      background: url(cases/gis.jpg) no-repeat center center;
+      transform: scale(.95);
+      border-radius: 8px;
+    }
+    
+    .case-item.item-18.open {
+      background: url(cases/gis.jpg) no-repeat center center;
+      transition: .5s all;
+      transform: scale(1);
+      border-radius: 8px;
+    }
+    
+    .item-18:hover .title  {
+      display: block;
+      font-size: 14px;
+      position: absolute;
+      margin: auto;
+      top: 45%;
+      text-align: center;
+      opacity: 1;
+    }
+    
+    .item-18 .title.delete {
+      display: block;
+      top: 30%!important;
+      opacity: 1;
+    }
+    
+    .case-item.item-18 img.bayk {
+      width: 162px;
+      height: 168px;
+      position: relative;
+      bottom: -242px;
+      left: 80px;
+      transform: scale(0);
+      cursor: none; 
+      transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-18 img.bayk.play {
+      width: 200px;
+      height: 168px;
+      position: relative;
+      bottom: -262px;
+      left: 58px;
+      transform: scale(0.6);
+      cursor: none; 
+    }
+    
+    .case-item.item-18 img.enter-pic {
+      width: 100px;
+    height: auto;
+    position: absolute;
+    margin: 200px 0 0 110px;
+    transition: .5s all;
+    opacity: 1;
+    }
+    
+    .case-item.item-18:hover img.enter-pic {
+      width: 112px;
+      height: auto;
+      margin: 80px 0 0 110px;
+    }
+    
+    /* _______________ end card _______________ */
+
 
     @keyframes pulse-black {
       0% {
