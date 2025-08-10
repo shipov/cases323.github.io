@@ -1613,7 +1613,8 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-5:hover, .case-item.item-5.open:hover {
+    .case-item.item-5:hover {
+      background: url(cases/dbr1.jpg);
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -1626,6 +1627,14 @@ a span:nth-of-type(3) {
       background-size: cover;
       transition: .5s all;
       transform: scale(1);
+      border-radius: 8px;
+    }
+
+    .case-item.item-5.open:hover {
+      background: url(cases/dbr.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      transform: scale(.95);
       border-radius: 8px;
     }
     
