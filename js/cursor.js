@@ -1,5 +1,5 @@
-var cursor = $(".cursor, .cursor_black"),
-    follower = $(".cursor-follower, .cursor_black-follower");
+var cursor = $(".cursor, .cursor_black, .cursor_red");
+    follower = $(".cursor-follower, .cursor_black-follower, .cursor_red-follower");
 
 var posX = 0,
     posY = 0;

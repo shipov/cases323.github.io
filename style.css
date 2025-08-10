@@ -192,6 +192,7 @@
             left: 0;
             right: 0;
             justify-content: center;
+            user-select: none;
 
           }
 
@@ -530,7 +531,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0
+    right: 0;
     bottom: 0;
     z-index: 1000000;
     opacity: 1;
@@ -1313,6 +1314,11 @@ a span:nth-of-type(3) {
       opacity: 1;
     }
 
+    .txt span:nth-child(2)::selection, .txt span::selection {
+      background: #62f300;
+      color: #000;
+    }
+
     .brand-logo:before {
       content: '';
       display: block;
@@ -1344,7 +1350,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-2:hover {
+    .case-item.item-2:hover, .case-item.item-2.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -1425,7 +1431,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-3:hover {
+    .case-item.item-3:hover, .case-item.item-3.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -1521,7 +1527,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-4:hover {
+    .case-item.item-4:hover, .case-item.item-4.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -1603,7 +1609,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-5:hover {
+    .case-item.item-5:hover, .case-item.item-5.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -1685,7 +1691,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-6:hover {
+    .case-item.item-6:hover, .case-item.item-6.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -1768,7 +1774,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-7:hover {
+    .case-item.item-7:hover, .case-item.item-7.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -1850,7 +1856,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-8:hover {
+    .case-item.item-8:hover, .case-item.item-8.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -1933,6 +1939,7 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-9:hover {
+      background: url(cases/cod1.jpg);
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -1941,6 +1948,15 @@ a span:nth-of-type(3) {
     
     .case-item.item-9.open {
       background: url(cases/cod1.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      transition: .5s all;
+      transform: scale(1);
+      border-radius: 8px;
+    }
+
+    .case-item.item-9.open:hover {
+      background: url(cases/cod.jpg);
       background-attachment: fixed;
       background-size: cover;
       transition: .5s all;
@@ -2014,7 +2030,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-10:hover {
+    .case-item.item-10:hover, .case-item.item-10.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -2097,6 +2113,7 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-11:hover {
+      background: url(cases/p_biz1.jpg);
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -2112,6 +2129,14 @@ a span:nth-of-type(3) {
       border-radius: 8px;
     }
     
+    .case-item.item-11.open:hover {
+      background: url(cases/p_biz.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      transform: scale(.95);
+      border-radius: 8px;
+    }
+
     .item-11:hover .title  {
       display: block;
       font-size: 14px;
@@ -2178,7 +2203,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-12:hover {
+    .case-item.item-12:hover, .case-item.item-12.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -2260,7 +2285,7 @@ a span:nth-of-type(3) {
 
     }
 
-    .case-item.item-13:hover {
+    .case-item.item-13:hover, .case-item.item-13.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -2342,7 +2367,7 @@ a span:nth-of-type(3) {
 
     }
 
-    .case-item.item-14:hover {
+    .case-item.item-14:hover, .case-item.item-14.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -2424,7 +2449,7 @@ a span:nth-of-type(3) {
 
     }
 
-    .case-item.item-15:hover {
+    .case-item.item-15:hover, .case-item.item-15.open:hover {
       background-attachment: fixed;
       background-size: cover;
       transform: scale(.95);
@@ -2504,7 +2529,7 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-16:hover {
+    .case-item.item-16:hover, .case-item.item-16.open:hover {
       background: black url(cases/pattern_item.png) repeat, url(cases/bond.png) no-repeat center center;
       transform: scale(.95);
       border-radius: 8px;
@@ -2581,8 +2606,8 @@ a span:nth-of-type(3) {
 
     }
     
-    .case-item.item-17:hover {
-      background: url(cases/dgl.jpg) no-repeat center center;
+    .case-item.item-17:hover, .case-item.item-17.open:hover {
+      background: url(cases/dgl1.jpg) no-repeat center center;
       transform: scale(.95);
       border-radius: 8px;
     }
@@ -2659,15 +2684,21 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-18:hover {
-      background: url(cases/gis.jpg) no-repeat center center;
+      background: url(cases/gis2.jpg) no-repeat center center;
       transform: scale(.95);
       border-radius: 8px;
     }
     
     .case-item.item-18.open {
-      background: url(cases/gis.jpg) no-repeat center center;
+      background: url(cases/gis2.jpg) no-repeat center center;
       transition: .5s all;
       transform: scale(1);
+      border-radius: 8px;
+    }
+
+    .case-item.item-18.open:hover {
+      background: url(cases/gis.jpg) no-repeat center center;
+      transform: scale(.95);
       border-radius: 8px;
     }
     
@@ -2709,18 +2740,105 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-18 img.enter-pic {
-      width: 100px;
+      width: 91px;
     height: auto;
     position: absolute;
-    margin: 200px 0 0 110px;
+    margin: 200px 0 0 114px;
     transition: .5s all;
     opacity: 1;
     }
     
     .case-item.item-18:hover img.enter-pic {
-      width: 112px;
+      width: 91px;
       height: auto;
-      margin: 80px 0 0 110px;
+      margin: 80px 0 0 114px;
+    }
+    
+    /* _______________ end card _______________ */
+
+    /* _______________ card item-19 _______________ */
+    
+    .case-item.item-19 {
+      background: url(cases/art1.jpg) no-repeat center center;
+      transition: .5s all;
+      height: 500px;
+      border-radius: 8px;
+
+    }
+    
+    .case-item.item-19:hover {
+      background: url(cases/art1.jpg) no-repeat center center;
+      transform: scale(.95);
+      border-radius: 8px;
+    }
+
+    .case-item.item-19.open:hover {
+      background: url(cases/art.jpg) no-repeat center center;
+      transform: scale(.95);
+      border-radius: 8px;
+    }
+    
+    .case-item.item-19.open {
+      background: url(cases/art.jpg) no-repeat center center;
+      transition: .5s all;
+      transform: scale(1);
+      border-radius: 8px;
+    }
+    
+    .item-19:hover .title  {
+      display: block;
+      font-size: 14px;
+      position: absolute;
+      margin: auto;
+      top: 45%;
+      text-align: center;
+      opacity: 1;
+    }
+    
+    .item-19 .title.delete {
+      display: block;
+      top: 30%!important;
+      opacity: 1;
+    }
+    
+    .case-item.item-19 img.bayk {
+      width: 162px;
+      height: 168px;
+      position: relative;
+      bottom: -242px;
+      left: 80px;
+      transform: scale(0);
+      cursor: none; 
+      transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-19 img.bayk.play {
+      width: auto;
+      height: 162px;
+      position: relative;
+      bottom: -255px;
+      left: 77px;
+      transform: scale(2.4);
+      cursor: none;
+    }
+    
+    .case-item.item-19 img.enter-pic {
+      width: 89px;
+      height: auto;
+      position: absolute;
+      margin: 200px 0 0 115px;
+      transition: .5s all;
+      opacity: 1;
+    }
+    
+    .case-item.item-19:hover img.enter-pic {
+      width: 89px;
+      height: auto;
+      margin: 80px 0 0 115px;
+    }
+
+    .case-item.item-19 a.UP1 {
+    margin: -137px 0 0 222px;
     }
     
     /* _______________ end card _______________ */

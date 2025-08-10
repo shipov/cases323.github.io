@@ -191,6 +191,13 @@ $(".case-item").click(function(){
   $(".case-item.item-18.title, .case-item.item-18.enter-pic").toggleClass("delete");
 });
 
+$(".case-item").click(function(){
+    $(".case-item.item-19").toggleClass("open");
+    $(this).toggleClass("open");
+  $(".case-item.item-19.bayk, .case-item.item-19 a.down, .case-item.item-19 a.UP1, .case-item.item-19 a.arrow_w, .case-item.item-19 .nda").toggleClass("play");
+  $(".case-item.item-19.title, .case-item.item-19.enter-pic").toggleClass("delete");
+});
+
 
 
 $("a.buttons:nth-last-child(1)").click(function () {
