@@ -1535,7 +1535,7 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-4.open {
-      background: url(cases/bon.jpg);
+      background: url(cases/bon1.jpg);
       background-attachment: fixed;
       background-size: cover;
       transition: .5s all;
@@ -1571,28 +1571,32 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-4 img.bayk.play {
-      width: 162px;
-      height: 168px;
-      position: relative;
-      bottom: -282px;
-      left: 80px;
-      transform: scale(0.6);
-      cursor: none; 
+    width: 202px;
+    height: 168px;
+    position: relative;
+    bottom: -265px;
+    left: 60px;
+    transform: scale(0.6);
+    cursor: none;
     }
-    
+
+    .case-item.item-4 a.UP1 {
+    margin: -143px 0 0 250px;
+    }
+
     .case-item.item-4 img.enter-pic {
-      width: 62px;
-      height: auto;
+      width: auto;
+      height: 50px;
       position: absolute;
-      margin: 220px 0 0 130px;
+      margin: 230px 0 0 103px;
       transition: .5s all;
       opacity: 1;
     }
     
     .case-item.item-4:hover img.enter-pic {
-      width: 62px;
-      height: auto;
-      margin: 130px 0 0 130px;
+      width: auto;
+      height: 50px;
+      margin: 130px 0 0 103px;
     }
     
     /* _______________ end card _______________ */
@@ -2959,4 +2963,12 @@ a span:nth-of-type(3) {
 
     .oldweb.white {
       display: block;
+    }
+
+    .figma p {
+      margin-top: 40px;
+      font-family: 'MTSWide-Regular';
+      letter-spacing: 5px;
+      font-size: 10px;
+      opacity: .8;
     }

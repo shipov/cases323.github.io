@@ -89,7 +89,7 @@ $(".case-item").click(function(){
 $(".case-item").click(function(){
 	$(".case-item.item-4").toggleClass("open");
 	$(this).toggleClass("open");
-  $(".case-item.item-4.bayk, .case-item.item-4 a.down, .case-item.item-4 a.UP1, .case-item.item-4 a.arrow").toggleClass("play");
+  $(".case-item.item-4.bayk, .case-item.item-4 a.down, .case-item.item-4 a.UP1, .case-item.item-4 a.arrow_w").toggleClass("play");
   $(".case-item.item-4.title, .case-item.item-4.enter-pic").toggleClass("delete");
 });
 
