@@ -764,12 +764,6 @@ a.moveDown span {
 }
 
 #moveUp {
-  /* position: absolute;
-  bottom: -50px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 530px; */
   transform: rotate(180deg);
 }
 
