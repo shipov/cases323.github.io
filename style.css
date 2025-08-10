@@ -1579,6 +1579,9 @@ a span:nth-of-type(3) {
     transform: scale(0.6);
     cursor: none;
     }
+    .case-item.item-4 img.bayk.play:hover {
+      transform: scale(.8);
+    }
 
     .case-item.item-4 a.UP1 {
     margin: -143px 0 0 250px;
@@ -2974,7 +2977,7 @@ a span:nth-of-type(3) {
       display: block;
     }
 
-    .figma p {
+    .figma {
       margin-top: 40px;
       font-family: 'MTSWide-Regular';
       letter-spacing: 5px;
