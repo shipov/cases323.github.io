@@ -2984,3 +2984,11 @@ a span:nth-of-type(3) {
       font-size: 10px;
       opacity: .8;
     }
+
+    .click {
+      margin-bottom: 30px;
+      font-family: 'MTSWide-Regular';
+      letter-spacing: 5px;
+      font-size: 10px;
+      opacity: .8;
+    }
