@@ -2979,7 +2979,7 @@ a span:nth-of-type(3) {
 
     .figma {
       margin-top: 40px;
-      font-family: 'MTSWide-Regular';
+      font-family: 'MTSWide-Medium';
       letter-spacing: 5px;
       font-size: 10px;
       opacity: .8;
@@ -2987,8 +2987,8 @@ a span:nth-of-type(3) {
 
     .click {
       margin-bottom: 30px;
-      font-family: 'MTSWide-Regular';
+      font-family: 'MTSWide-Medium';
       letter-spacing: 5px;
-      font-size: 10px;
+      font-size: 16px;
       opacity: .8;
     }
