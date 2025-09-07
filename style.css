@@ -554,7 +554,13 @@
     transition: opacity 1000ms linear;
   }
 
-  
+  .wave {
+    width: 100%;
+    height: 100vh;
+    opacity: .15;
+    background: url(img/vidos.gif) no-repeat;
+    background-size: cover;
+  }
 
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
