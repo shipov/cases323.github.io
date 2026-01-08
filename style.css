@@ -2790,7 +2790,7 @@ a span:nth-of-type(3) {
     /* _______________ card item-19 _______________ */
     
     .case-item.item-19 {
-      background: url(cases/art1.jpg) no-repeat center center;
+      background: url(cases/art.jpg) no-repeat center center;
       transition: .5s all;
       height: 500px;
       border-radius: 8px;
@@ -2804,7 +2804,7 @@ a span:nth-of-type(3) {
     }
 
     .case-item.item-19.open:hover {
-      background: url(cases/art.jpg) no-repeat center center;
+      background: url(cases/art1.jpg) no-repeat center center;
       transform: scale(.95);
       border-radius: 8px;
     }
