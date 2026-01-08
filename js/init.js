@@ -212,6 +212,14 @@ $(".case-item").click(function(){
   $(".case-item.item-21.title, .case-item.item-21.enter-pic").toggleClass("delete");
 });
 
+$(".case-item").click(function(){
+    $(".case-item.item-22").toggleClass("open");
+    $(this).toggleClass("open");
+  $(".case-item.item-22.bayk, .case-item.item-22 a.down, .case-item.item-22 a.UP1, .case-item.item-22 a.arrow_w").toggleClass("play");
+  $(".case-item.item-22.title, .case-item.item-22.enter-pic").toggleClass("delete");
+});
+
+
 $("a.buttons:nth-last-child(1)").click(function () {
   $('a.buttons').toggleClass("hovered");
 });

@@ -3081,6 +3081,99 @@ a span:nth-of-type(3) {
 
     /* _______________ end card _______________ */
 
+    /* _______________ card item-22 _______________ */
+    
+    .case-item.item-22 {
+      background: url(cases/integ.jpg) no-repeat center center;
+      transition: .5s all;
+      height: 500px;
+      border-radius: 8px;
+
+    }
+    
+    .case-item.item-22:hover {
+      background: url(cases/integ_1.jpg) no-repeat center center;
+      transform: scale(.95);
+      border-radius: 8px;
+    }
+
+    .case-item.item-22.open:hover {
+      background: url(cases/integ_1.jpg) no-repeat center center;
+      transform: scale(.95);
+      border-radius: 8px;
+    }
+    
+    .case-item.item-22.open {
+      background: url(cases/integ.jpg) no-repeat center center;
+      transition: .5s all;
+      transform: scale(1);
+      border-radius: 8px;
+    }
+    
+    .item-22:hover .title  {
+      display: block;
+      font-size: 14px;
+      position: absolute;
+      margin: auto;
+      top: 45%;
+      text-align: center;
+      opacity: 1;
+    }
+    
+    .item-22 .title.delete {
+      display: block;
+      top: 30%!important;
+      opacity: 1;
+    }
+    
+    .case-item.item-22 img.bayk {
+      width: 270px;
+      height: auto;
+      position: relative;
+      bottom: -190px;
+      left: 32px;
+      cursor: none;
+      transform: scale(0);
+      transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-22 img.bayk.play {
+      width: 270px;
+      height: auto;
+      position: relative;
+      bottom: -190px;
+      left: 32px;
+      cursor: none;
+      transform: scale(1);
+    }
+    
+    .case-item.item-22 img.enter-pic {
+      width: 170px;
+      height: auto;
+      position: absolute;
+      margin: 222px 0 0 75px;
+      transition: .5s all;
+      opacity: 1;
+    }
+    
+    .case-item.item-22:hover img.enter-pic {
+      width: 132px;
+      height: auto;
+      margin: 150px 0 0 92px;
+    }
+
+    .case-item.item-22 a.UP1 {
+      margin: -293px 0 0 182px!important;
+    }
+    
+    .case-item.item-22 a.UP1.play {
+      margin: -293px 0 0 204px!important; 
+      transform: scale(1);
+    }
+
+    /* _______________ end card _______________ */
+
+
 
     @keyframes pulse-black {
       0% {
