@@ -2897,7 +2897,7 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-20.open {
-      background: url(cases/UD.jpg) no-repeat center center;
+      background: url(cases/UD_1.jpg) no-repeat center center;
       transition: .5s all;
       transform: scale(1);
       border-radius: 8px;
