@@ -2106,13 +2106,12 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-10 img.bayk.play {
-      width: 122px;
+      width: 182px;
       height: 168px;
       position: relative;
       bottom: -282px;
-      left: 103px;
-      transform: scale(0.6);
-      cursor: none; 
+      left: 71px;
+      transform: scale(0.7);
     }
     
     .case-item.item-10 img.enter-pic {
@@ -2960,8 +2959,8 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-20 a.UP1.play {
-    margin: -209px 0 0 182px!important;
-        * transform: scale(1);
+     margin: -209px 0 0 182px!important; 
+         transform: scale(1);
     }
 
      .case-item.item-20 .arrow {
@@ -2970,7 +2969,6 @@ a span:nth-of-type(3) {
       z-index: 100000;
       height: 46px;
       border-radius: 50%;
-      margin: 388px 0 0 246px;
       display: block;
       transition: .5s all    
      }
@@ -2985,7 +2983,6 @@ a span:nth-of-type(3) {
      .case-item.item-20 .arrow.play:hover {
       width: 46px;
       height: 46px;
-      margin: 388px 0 0 246px;
       display: block;
       transition: .5s all;
     }
