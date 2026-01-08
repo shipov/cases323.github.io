@@ -2875,6 +2875,124 @@ a span:nth-of-type(3) {
     
     /* _______________ end card _______________ */
 
+    /* _______________ card item-20 _______________ */
+    
+    .case-item.item-20 {
+      background: url(cases/UD_1.jpg) no-repeat center center;
+      transition: .5s all;
+      height: 500px;
+      border-radius: 8px;
+
+    }
+    
+    .case-item.item-20:hover {
+      background: url(cases/UD.jpg) no-repeat center center;
+      transform: scale(.95);
+      border-radius: 8px;
+    }
+
+    .case-item.item-20.open:hover {
+      background: url(cases/UD.jpg) no-repeat center center;
+      transform: scale(.95);
+      border-radius: 8px;
+    }
+    
+    .case-item.item-20.open {
+      background: url(cases/UD.jpg) no-repeat center center;
+      transition: .5s all;
+      transform: scale(1);
+      border-radius: 8px;
+    }
+    
+    .item-20:hover .title  {
+      display: block;
+      font-size: 14px;
+      position: absolute;
+      margin: auto;
+      top: 45%;
+      text-align: center;
+      opacity: 1;
+    }
+    
+    .item-20 .title.delete {
+      display: block;
+      top: 30%!important;
+      opacity: 1;
+    }
+    
+    .case-item.item-20 img.bayk {
+      width: 190px;
+      height: auto;
+      position: relative;
+      bottom: -500px;
+      left: 78px;
+      cursor: none;
+      transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+    
+    .case-item.item-20 img.bayk.play {
+      width: 200px;
+      height: auto;
+      position: relative;
+      bottom: -250px;
+      left: 52px;
+      cursor: none;
+    }
+    
+    
+    .case-item.item-20 img.enter-pic {
+      width: 120px;
+      height: auto;
+      position: absolute;
+      margin: 232px 0 0 100px;
+      transition: .5s all;
+      opacity: 1;
+    }
+    
+    .case-item.item-20:hover img.enter-pic {
+      width: 89px;
+      height: auto;
+      margin: 150px 0 0 115px;
+    }
+
+    .case-item.item-20 a.UP1 {
+    margin: -209px 0 0 182px!important;
+    }
+    
+    .case-item.item-20 a.UP1.play {
+    margin: -209px 0 0 182px!important;
+        * transform: scale(1);
+    }
+
+     .case-item.item-20 .arrow {
+      width: 46px;
+      position: absolute;
+      z-index: 100000;
+      height: 46px;
+      border-radius: 50%;
+      margin: 388px 0 0 246px;
+      display: block;
+      transition: .5s all    
+     }
+     
+     .case-item.item-20 .arrow.play {
+      display: block;
+      transition: .5s all;
+      animation: pulse-black 2s infinite;
+      
+    }
+    
+     .case-item.item-20 .arrow.play:hover {
+      width: 46px;
+      height: 46px;
+      margin: 388px 0 0 246px;
+      display: block;
+      transition: .5s all;
+      background: no-repeat center center url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDciIGhlaWdodD0iNDciIHZpZXdCb3g9IjAgMCA0NyA0NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzIyNDVfMzgpIj4KPHBhdGggb3BhY2l0eT0iMC40IiBkPSJNMjMuMjg3NCA0NS43ODc0QzM1LjcxMzggNDUuNzg3NCA0NS43ODc0IDM1LjcxMzggNDUuNzg3NCAyMy4yODc0QzQ1Ljc4NzQgMTAuODYwOSAzNS43MTM4IDAuNzg3MzU0IDIzLjI4NzQgMC43ODczNTRDMTAuODYwOSAwLjc4NzM1NCAwLjc4NzM1NCAxMC44NjA5IDAuNzg3MzU0IDIzLjI4NzRDMC43ODczNTQgMzUuNzEzOCAxMC44NjA5IDQ1Ljc4NzQgMjMuMjg3NCA0NS43ODc0WiIgZmlsbD0iI0I4RDBGRiIgc3Ryb2tlPSJibGFjayIgc3R5bGU9ImZpbGw6I0I4RDBGRjtmaWxsOmNvbG9yKGRpc3BsYXktcDMgMC43MjE2IDAuODE1NyAxLjAwMDApO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpibGFjaztzdHJva2Utb3BhY2l0eToxOyIgc3Ryb2tlLXdpZHRoPSIwLjc4Njg2OSIvPgo8cGF0aCBkPSJNMjcuNDQzNiAxOS4xMzExTDE5LjEzMDkgMjcuNDQzOSIgc3Ryb2tlPSJibGFjayIgc3R5bGU9InN0cm9rZTpibGFjaztzdHJva2Utb3BhY2l0eToxOyIvPgo8cGF0aCBkPSJNMTkuMTMwOSAxOS4xMzExSDI3LjQ0MzZWMjcuNDQzOSIgc3Ryb2tlPSJibGFjayIgc3R5bGU9InN0cm9rZTpibGFjaztzdHJva2Utb3BhY2l0eToxOyIgc3Ryb2tlLXdpZHRoPSIwLjc4Njg2OSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzIyNDVfMzgiPgo8cmVjdCB3aWR0aD0iNDciIGhlaWdodD0iNDciIGZpbGw9IndoaXRlIiBzdHlsZT0iZmlsbDp3aGl0ZTtmaWxsLW9wYWNpdHk6MTsiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K);
+    }
+    
+    /* _______________ end card _______________ */
+
 
     @keyframes pulse-black {
       0% {
