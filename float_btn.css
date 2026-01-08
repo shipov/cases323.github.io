@@ -172,12 +172,6 @@ nav.float-action-button {
 
 
 
-
-
-
-
-
-
 a.buttons:not(:last-child):nth-last-child(2).active {
   -webkit-transition-delay: 80ms;
   transition-delay: 80ms;
