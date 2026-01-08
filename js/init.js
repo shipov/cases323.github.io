@@ -201,10 +201,16 @@ $(".case-item").click(function(){
 $(".case-item").click(function(){
     $(".case-item.item-20").toggleClass("open");
     $(this).toggleClass("open");
-  $(".case-item.item-20.bayk, .case-item.item-20 a.down, .case-item.item-20 a.UP1, .case-item.item-20 a.arrow, .case-item.item-20 .nda").toggleClass("play");
+  $(".case-item.item-20.bayk, .case-item.item-20 a.down, .case-item.item-20 a.UP1, .case-item.item-20 a.arrow").toggleClass("play");
   $(".case-item.item-20.title, .case-item.item-20.enter-pic").toggleClass("delete");
 });
 
+$(".case-item").click(function(){
+    $(".case-item.item-21").toggleClass("open");
+    $(this).toggleClass("open");
+  $(".case-item.item-21.bayk, .case-item.item-21 a.down, .case-item.item-21 a.UP1, .case-item.item-21 a.arrow_w").toggleClass("play");
+  $(".case-item.item-21.title, .case-item.item-21.enter-pic").toggleClass("delete");
+});
 
 $("a.buttons:nth-last-child(1)").click(function () {
   $('a.buttons').toggleClass("hovered");
