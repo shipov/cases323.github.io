@@ -2955,7 +2955,7 @@ a span:nth-of-type(3) {
     }
 
     .case-item.item-20 a.UP1 {
-    margin: -209px 0 0 182px!important;
+    margin: -200px 0 0 182px!important;
     }
     
     .case-item.item-20 a.UP1.play {
@@ -3001,13 +3001,13 @@ a span:nth-of-type(3) {
     }
     
     .case-item.item-21:hover {
-      background: url(cases/UN.jpg) no-repeat center center;
+      background: url(cases/UN_1.jpg) no-repeat center center;
       transform: scale(.95);
       border-radius: 8px;
     }
 
     .case-item.item-21.open:hover {
-      background: url(cases/UN.jpg) no-repeat center center;
+      background: url(cases/UN_1.jpg) no-repeat center center;
       transform: scale(.95);
       border-radius: 8px;
     }
@@ -3071,11 +3071,11 @@ a span:nth-of-type(3) {
     }
 
     .case-item.item-21 a.UP1 {
-    margin: -209px 0 0 182px!important;
+    margin: -200px 0 0 182px!important;
     }
     
     .case-item.item-21 a.UP1.play {
-     margin: -209px 0 0 232px!important; 
+     margin: -210px 0 0 162px!important; 
          transform: scale(1);
     }
 
