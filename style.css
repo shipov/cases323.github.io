@@ -1010,6 +1010,7 @@ a span:nth-of-type(3) {
     
     .case-item  {
       margin-right: 12px;
+      border-radius: 20px!important;
     }
     
     /* _______________ card item-1 _______________ */
@@ -1038,6 +1039,7 @@ a span:nth-of-type(3) {
       transition: .5s all;
       transform: scale(1);
       border-radius: 8px;
+
     }
     
     .item-1:hover .title {
@@ -1902,6 +1904,7 @@ a span:nth-of-type(3) {
       transition: .5s all;
       transform: scale(1);
       border-radius: 8px;
+
     }
     
     .item-8:hover .title  {

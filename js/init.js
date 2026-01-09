@@ -321,4 +321,3 @@ $('.preloader').addClass('none');
     //   $(".open").removeClass("open");
     //   $(this).addClass("open");
     // });
-
