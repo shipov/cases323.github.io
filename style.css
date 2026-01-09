@@ -1010,7 +1010,9 @@ a span:nth-of-type(3) {
     
     .case-item  {
       margin-right: 12px;
-      border-radius: 20px!important;
+      border-radius: 20px !important;
+      corner-shape: squircle;
+      
     }
     
     /* _______________ card item-1 _______________ */
